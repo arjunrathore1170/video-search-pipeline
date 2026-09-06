@@ -5,11 +5,13 @@
     "object_type": "person",
     "start_time": "2026-08-31 20:55:08",
     "end_time": "2026-08-31 20:55:22",
+    "start_sec": 75308,
+    "end_sec": 75322,
     "attributes": {
       "shirt": "red",
       "pants": "black"
     },
-    "video_file": null
+    "video_file": "dummy.mp4"
   },
   {
     "event_id": 2,
@@ -17,11 +19,13 @@
     "object_type": "person",
     "start_time": "2026-08-31 22:51:32",
     "end_time": "2026-08-31 22:52:15",
+    "start_sec": 82292,
+    "end_sec": 82335,
     "attributes": {
       "shirt": "red",
       "pants": "blue"
     },
-    "video_file": null
+    "video_file": "dummy.mp4"
   },
   {
     "event_id": 3,
@@ -29,6 +33,8 @@
     "object_type": "person",
     "start_time": "2026-08-31 23:20:01",
     "end_time": "2026-08-31 23:20:41",
+    "start_sec": 84001,
+    "end_sec": 84041,
     "attributes": {
       "shirt": "blue",
       "pants": "gray"
@@ -41,6 +47,8 @@
     "object_type": "person",
     "start_time": "2026-08-31 09:15:00",
     "end_time": "2026-08-31 09:15:42",
+    "start_sec": 33300,
+    "end_sec": 33342,
     "attributes": {
       "shirt": "white",
       "pants": "blue"
@@ -53,6 +61,8 @@
     "object_type": "person",
     "start_time": "2026-08-31 14:30:20",
     "end_time": "2026-08-31 14:31:05",
+    "start_sec": 52220,
+    "end_sec": 52265,
     "attributes": {
       "shirt": "green",
       "pants": "black"
@@ -65,6 +75,8 @@
     "object_type": "person",
     "start_time": "2026-08-31 08:05:10",
     "end_time": "2026-08-31 08:05:55",
+    "start_sec": 29110,
+    "end_sec": 29155,
     "attributes": {
       "shirt": "black",
       "pants": "gray"
@@ -77,6 +89,8 @@
     "object_type": "person",
     "start_time": "2026-08-31 19:45:30",
     "end_time": "2026-08-31 19:46:12",
+    "start_sec": 71130,
+    "end_sec": 71172,
     "attributes": {
       "shirt": "yellow",
       "pants": "white"
@@ -89,6 +103,8 @@
     "object_type": "person",
     "start_time": "2026-08-31 21:10:00",
     "end_time": "2026-08-31 21:10:35",
+    "start_sec": 76200,
+    "end_sec": 76235,
     "attributes": {
       "shirt": "orange",
       "pants": "blue"
@@ -101,6 +117,8 @@
     "object_type": "person",
     "start_time": "2026-08-31 16:22:15",
     "end_time": "2026-08-31 16:23:00",
+    "start_sec": 58935,
+    "end_sec": 58980,
     "attributes": {
       "shirt": "gray",
       "pants": "black"
@@ -113,6 +131,8 @@
     "object_type": "person",
     "start_time": "2026-08-31 20:05:30",
     "end_time": "2026-08-31 20:06:10",
+    "start_sec": 72330,
+    "end_sec": 72370,
     "attributes": {
       "shirt": "red",
       "pants": "white"
@@ -125,6 +145,8 @@
     "object_type": "person",
     "start_time": "2026-08-31 20:55:08",
     "end_time": "2026-08-31 20:55:22",
+    "start_sec": 75308,
+    "end_sec": 75322,
     "attributes": {
       "shirt": "orange",
       "pants": "blue"
@@ -137,6 +159,8 @@
     "object_type": "car",
     "start_time": "2026-08-31 20:30:00",
     "end_time": "2026-08-31 20:30:25",
+    "start_sec": 73800,
+    "end_sec": 73825,
     "attributes": {},
     "video_file": null
   },
@@ -146,6 +170,8 @@
     "object_type": "car",
     "start_time": "2026-08-31 21:15:40",
     "end_time": "2026-08-31 21:16:10",
+    "start_sec": 76540,
+    "end_sec": 76570,
     "attributes": {},
     "video_file": null
   },
@@ -155,6 +181,8 @@
     "object_type": "car",
     "start_time": "2026-08-31 22:05:00",
     "end_time": "2026-08-31 22:05:30",
+    "start_sec": 79500,
+    "end_sec": 79530,
     "attributes": {},
     "video_file": null
   },
@@ -164,6 +192,8 @@
     "object_type": "car",
     "start_time": "2026-08-31 19:50:15",
     "end_time": "2026-08-31 19:50:55",
+    "start_sec": 71415,
+    "end_sec": 71455,
     "attributes": {},
     "video_file": null
   }

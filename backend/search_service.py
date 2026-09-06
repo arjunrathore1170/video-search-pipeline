@@ -132,6 +132,8 @@ def search_events(intent: dict) -> list[dict]:
                 "duration": _duration_label(event.get("start_time", ""), event.get("end_time", "")),
                 "attributes": attrs,
                 "video_file": event.get("video_file"),
+                "start_sec": event.get("start_sec"),
+                "end_sec": event.get("end_sec"),
             }
             results.append(result)
 

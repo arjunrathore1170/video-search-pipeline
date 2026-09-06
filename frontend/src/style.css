@@ -1156,3 +1156,115 @@ body {
 .reset-search-link:hover {
   color: var(--text-primary);
 }
+
+/* ── Video Player Styles ────────────────────────────────── */
+.modal-video-container {
+  margin-bottom: 20px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: #000;
+  box-shadow: var(--shadow-md);
+}
+
+.modal-video-player {
+  width: 100%;
+  max-height: 280px;
+  display: block;
+  object-fit: contain;
+  outline: none;
+  background: #000;
+}
+
+.video-notice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 14px;
+  background: rgba(99, 102, 241, 0.1);
+  border-top: 1px solid var(--border);
+  font-size: 0.74rem;
+  color: var(--text-primary);
+  flex-wrap: wrap;
+}
+
+.clip-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.clip-badge {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  font-size: 0.72rem;
+  color: var(--accent-hover);
+}
+
+.clip-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.clip-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 3px 9px;
+  border-radius: var(--radius-sm);
+  font-size: 0.7rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.clip-btn:hover {
+  background: var(--accent-light);
+  border-color: var(--accent);
+  color: var(--accent-hover);
+}
+
+.clip-btn.toggle.unlocked {
+  background: rgba(245, 158, 11, 0.15);
+  color: #f59e0b;
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.card-play-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  background: var(--accent-light);
+  color: var(--accent-hover);
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  border-radius: var(--radius-full);
+  font-size: 0.72rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.card-play-btn:hover {
+  background: var(--accent);
+  color: var(--text-white);
+  transform: scale(1.04);
+}
+
+.video-error-banner {
+  padding: 10px 14px;
+  background: rgba(239, 68, 68, 0.15);
+  border-top: 1px solid rgba(239, 68, 68, 0.3);
+  color: #ef4444;
+  font-size: 0.78rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+

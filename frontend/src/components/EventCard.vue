@@ -62,10 +62,12 @@
 
     <!-- Video file indicator -->
     <div class="card-footer">
-      <span class="video-status" :class="{ connected: event.video_file }">
-        {{ event.video_file ? '🎬 Video attached' : '📡 No video' }}
+      <span class="video-status connected">
+        🎬 {{ event.video_file || 'dummy.mp4' }}
       </span>
-      <span class="view-details-link">View →</span>
+      <button class="card-play-btn" title="Play video clip">
+        ▶ Play Video
+      </button>
     </div>
   </div>
 </template>

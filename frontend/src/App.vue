@@ -255,6 +255,46 @@
             <span class="modal-id">Track #{{ detailEvent.track_id }}</span>
           </div>
         </div>
+
+        <!-- Video Player -->
+        <div class="modal-video-container">
+          <video
+            ref="videoPlayer"
+            class="modal-video-player"
+            controls
+            autoplay
+            preload="metadata"
+            :src="getVideoSrc(detailEvent)"
+            @error="onVideoError"
+            @loadeddata="onVideoLoadedData"
+            @timeupdate="onVideoTimeUpdate"
+          >
+            Your browser does not support HTML5 video tag.
+          </video>
+          <div v-if="videoError" class="video-error-banner">
+            ⚠️ Could not play video. Ensure the file is an H.264/AAC encoded MP4 or WebM file.
+          </div>
+          <div class="video-notice" v-else>
+            <div class="clip-info">
+              <span class="clip-file">🎬 <strong>{{ detailEvent.video_file || 'dummy.mp4' }}</strong></span>
+              <span class="clip-badge">
+                ⏱ Clip: <strong>{{ formatTimeSec(clipStartSec) }}</strong> ➔ <strong>{{ formatTimeSec(clipEndSec) }}</strong> ({{ clipDurationSec }}s)
+              </span>
+            </div>
+            <div class="clip-actions">
+              <button class="clip-btn replay" @click="replayClip" title="Replay event clip">🔄 Replay Clip</button>
+              <button
+                class="clip-btn toggle"
+                :class="{ unlocked: !enforceClipEnd }"
+                @click="enforceClipEnd = !enforceClipEnd"
+                :title="enforceClipEnd ? 'Stop at clip end time' : 'Play beyond clip end time'"
+              >
+                {{ enforceClipEnd ? '🔒 Clip Only' : '🔓 Full Video' }}
+              </button>
+            </div>
+          </div>
+        </div>
+
         <div class="modal-body">
           <div class="modal-field">
             <span class="modal-field-label">Start Time</span>
@@ -314,6 +354,12 @@ export default {
       refreshing: false,
       error: null,
       detailEvent: null,
+      videoError: false,
+      clipStartSec: 0,
+      clipEndSec: 0,
+      clipDurationSec: 0,
+      enforceClipEnd: true,
+      hasSeekedToStart: false,
       cacheTimestamp: null,
       searchQuery: '',
       aiSearchLoading: false,
@@ -520,7 +566,83 @@ export default {
       this.filters[key] = ''
     },
     openDetailModal(event) {
+      this.videoError = false
       this.detailEvent = event
+      this.enforceClipEnd = true
+      this.hasSeekedToStart = false
+
+      const bounds = this.getClipBounds(event)
+      this.clipStartSec = bounds.start
+      this.clipEndSec = bounds.end
+      this.clipDurationSec = Math.max(0, bounds.end - bounds.start)
+    },
+    getClipBounds(event) {
+      if (!event) return { start: 0, end: 10 }
+      if (typeof event.start_sec === 'number' && typeof event.end_sec === 'number') {
+        return { start: event.start_sec, end: event.end_sec }
+      }
+      try {
+        const timeStrStart = event.start_time.includes(' ') ? event.start_time.split(' ')[1] : event.start_time
+        const timeStrEnd = event.end_time.includes(' ') ? event.end_time.split(' ')[1] : event.end_time
+        const startParts = timeStrStart.split(':').map(Number)
+        const endParts = timeStrEnd.split(':').map(Number)
+        const startSec = startParts[0] * 3600 + startParts[1] * 60 + (startParts[2] || 0)
+        const endSec = endParts[0] * 3600 + endParts[1] * 60 + (endParts[2] || 0)
+        return { start: startSec, end: Math.max(startSec + 5, endSec) }
+      } catch {
+        return { start: 0, end: 30 }
+      }
+    },
+    onVideoLoadedData() {
+      this.videoError = false
+      const video = this.$refs.videoPlayer
+      if (video && !this.hasSeekedToStart) {
+        this.hasSeekedToStart = true
+        video.currentTime = this.clipStartSec
+        video.play().catch(() => {})
+      }
+    },
+    onVideoTimeUpdate() {
+      const video = this.$refs.videoPlayer
+      if (!video) return
+      if (this.enforceClipEnd && this.clipEndSec > this.clipStartSec) {
+        if (video.currentTime >= this.clipEndSec) {
+          video.pause()
+          video.currentTime = this.clipEndSec
+        }
+      }
+    },
+    replayClip() {
+      const video = this.$refs.videoPlayer
+      if (video) {
+        video.currentTime = this.clipStartSec
+        video.play().catch(() => {})
+      }
+    },
+    formatTimeSec(sec) {
+      if (isNaN(sec) || sec < 0) return '00:00:00'
+      const h = Math.floor(sec / 3600)
+      const m = Math.floor((sec % 3600) / 60)
+      const s = Math.floor(sec % 60)
+      return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`
+    },
+    onVideoError(e) {
+      console.warn('Video failed to play:', e)
+      this.videoError = true
+    },
+    getVideoSrc(event) {
+      if (!event) return '/dummy.mp4'
+      if (event.video_file) {
+        if (
+          event.video_file.startsWith('http://') ||
+          event.video_file.startsWith('https://') ||
+          event.video_file.startsWith('/')
+        ) {
+          return event.video_file
+        }
+        return `/${event.video_file}`
+      }
+      return '/dummy.mp4'
     },
     computeDuration(event) {
       try {
