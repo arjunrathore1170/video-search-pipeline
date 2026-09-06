@@ -4,7 +4,7 @@
     <header class="app-header" id="app-header">
       <div class="header-inner">
         <div class="header-left">
-          <span class="header-icon">🎯</span>
+          <img src="/logo.jpg" alt="Video Search Logo" class="header-logo" />
           <div>
             <h1 class="header-title">Video Search Pipeline</h1>
             <p class="header-subtitle">YOLO + Tracking Event Browser</p>
@@ -74,7 +74,7 @@
         </div>
 
         <!-- Shirt Color -->
-        <div class="filter-group">
+        <div class="filter-group" v-if="!filters.object_type || filters.object_type === 'person'">
           <label class="filter-label" for="filter-shirt">Shirt Color</label>
           <select id="filter-shirt" class="filter-select" v-model="filters.shirt">
             <option value="">Any</option>
@@ -83,7 +83,7 @@
         </div>
 
         <!-- Pants Color -->
-        <div class="filter-group">
+        <div class="filter-group" v-if="!filters.object_type || filters.object_type === 'person'">
           <label class="filter-label" for="filter-pants">Pants Color</label>
           <select id="filter-pants" class="filter-select" v-model="filters.pants">
             <option value="">Any</option>
@@ -530,6 +530,14 @@ export default {
         return diff >= 0 ? `${diff}s` : '?'
       } catch {
         return '?'
+      }
+    },
+  },
+  watch: {
+    'filters.object_type'(newType) {
+      if (newType && newType !== 'person') {
+        this.filters.shirt = ''
+        this.filters.pants = ''
       }
     },
   },

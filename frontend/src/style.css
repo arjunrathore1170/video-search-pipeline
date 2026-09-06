@@ -116,6 +116,21 @@ body {
   filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.5));
 }
 
+.header-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent);
+  box-shadow: 0 0 12px rgba(99, 102, 241, 0.4);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.header-logo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 18px rgba(99, 102, 241, 0.6);
+}
+
 .header-title {
   font-size: 1.25rem;
   font-weight: 700;
