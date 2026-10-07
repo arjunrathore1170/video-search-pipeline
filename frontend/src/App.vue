@@ -4,13 +4,23 @@
     <header class="app-header" id="app-header">
       <div class="header-inner">
         <div class="header-left">
-          <img src="/logo.jpg" alt="Video Search Logo" class="header-logo" />
+          <img src="/logo.jpg" alt="VisionQuery Logo" class="header-logo" />
           <div>
-            <h1 class="header-title">Video Search Pipeline</h1>
-            <p class="header-subtitle">YOLO + Tracking Event Browser</p>
+            <h1 class="header-title">VisionQuery</h1>
+            <p class="header-subtitle">CCTV / Video Search & Retrieval</p>
           </div>
         </div>
         <div class="header-right">
+          <button
+            class="connection-indicator-btn"
+            :class="computer1Status"
+            @click="openRemoteConfigModal"
+            title="Click to configure Computer 1 address (LAN / Remote / Another City)"
+          >
+            <span class="conn-dot"></span>
+            <span class="conn-label">Computer 1: {{ computer1StatusText }}</span>
+            <span class="conn-edit-icon">⚙️</span>
+          </button>
           <div class="cache-indicator" :class="{ stale: isCacheStale }">
             <span class="cache-dot"></span>
             <span class="cache-label">{{ cacheStatusText }}</span>
@@ -46,6 +56,25 @@
           <select id="filter-object-type" class="filter-select" v-model="filters.object_type">
             <option value="">All Types</option>
             <option v-for="t in uniqueObjectTypes" :key="t" :value="t">{{ t }}</option>
+          </select>
+        </div>
+
+        <!-- Camera Name -->
+        <div class="filter-group">
+          <label class="filter-label" for="filter-camera-name">Camera</label>
+          <select id="filter-camera-name" class="filter-select" v-model="filters.camera_name">
+            <option value="">All Cameras</option>
+            <option v-for="c in uniqueCameraNames" :key="c" :value="c">{{ c }}</option>
+          </select>
+        </div>
+
+        <!-- Source Type -->
+        <div class="filter-group">
+          <label class="filter-label" for="filter-source-type">Video Source</label>
+          <select id="filter-source-type" class="filter-select" v-model="filters.source_type">
+            <option value="">All Sources</option>
+            <option value="uploaded">Uploaded Video</option>
+            <option value="nvr">NVR / IP Camera</option>
           </select>
         </div>
 
@@ -132,7 +161,7 @@
               class="prompt-input"
               type="text"
               v-model="searchQuery"
-              placeholder="Ask in natural language (e.g. 'person in orange shirt with blue pants' or 'car after 8 PM')..."
+              placeholder="Ask in natural language (e.g. 'person in red shirt near front gate' or 'car after 8 PM')..."
               @keyup.enter="performAiSearch"
             />
             <button
@@ -175,6 +204,7 @@
               <span class="intent-badge" v-if="aiSearchIntent.object_type">Type: <strong>{{ aiSearchIntent.object_type }}</strong></span>
               <span class="intent-badge" v-if="aiSearchIntent.shirt">Shirt: <strong>{{ aiSearchIntent.shirt }}</strong></span>
               <span class="intent-badge" v-if="aiSearchIntent.pants">Pants: <strong>{{ aiSearchIntent.pants }}</strong></span>
+              <span class="intent-badge" v-if="aiSearchIntent.camera_name">Camera: <strong>{{ aiSearchIntent.camera_name }}</strong></span>
               <span class="intent-badge" v-if="aiSearchIntent.time_after">After: <strong>{{ aiSearchIntent.time_after }}</strong></span>
               <span class="intent-badge" v-if="aiSearchIntent.time_before">Before: <strong>{{ aiSearchIntent.time_before }}</strong></span>
               <span class="intent-badge" v-if="aiSearchIntent.track_id">Track: <strong>{{ aiSearchIntent.track_id }}</strong></span>
@@ -199,12 +229,20 @@
             <span class="stat-value">{{ vehicleCount }}</span>
             <span class="stat-label">Vehicles</span>
           </div>
+          <div class="stat-chip uploaded">
+            <span class="stat-value">{{ uploadedCount }}</span>
+            <span class="stat-label">Uploaded</span>
+          </div>
+          <div class="stat-chip nvr">
+            <span class="stat-value">{{ nvrCount }}</span>
+            <span class="stat-label">NVR</span>
+          </div>
         </div>
 
         <!-- Loading State -->
         <div v-if="loading" class="loading-state">
           <div class="loading-spinner-large"></div>
-          <p>Loading events from pipeline...</p>
+          <p>Loading events from Computer 1...</p>
         </div>
 
         <!-- Error State -->
@@ -253,30 +291,35 @@
           <div class="modal-ids">
             <span class="modal-id">Event #{{ detailEvent.event_id }}</span>
             <span class="modal-id">Track #{{ detailEvent.track_id }}</span>
+            <span class="modal-id" v-if="detailEvent.camera_name">📷 {{ detailEvent.camera_name }}</span>
           </div>
         </div>
 
-        <!-- Video Player -->
+        <!-- Unified Video Player (Renders for ALL events: Uploaded & NVR) -->
         <div class="modal-video-container">
           <video
             ref="videoPlayer"
             class="modal-video-player"
             controls
             autoplay
-            preload="metadata"
-            :src="getVideoSrc(detailEvent)"
+            preload="auto"
+            :src="detailVideoUrl"
             @error="onVideoError"
             @loadeddata="onVideoLoadedData"
             @timeupdate="onVideoTimeUpdate"
           >
             Your browser does not support HTML5 video tag.
           </video>
+
           <div v-if="videoError" class="video-error-banner">
-            ⚠️ Could not play video. Ensure the file is an H.264/AAC encoded MP4 or WebM file.
+            ⚠️ Could not play video stream. Please check that video files are available.
           </div>
-          <div class="video-notice" v-else>
+
+          <!-- Video Notice & Actions for Uploaded Videos -->
+          <div class="video-notice" v-if="detailVideoSourceType === 'uploaded'">
             <div class="clip-info">
-              <span class="clip-file">🎬 <strong>{{ detailEvent.video_file || 'dummy.mp4' }}</strong></span>
+              <span class="clip-file">🎬 <strong>{{ detailShortFilename }}</strong></span>
+              <span class="clip-badge source-uploaded">📁 Uploaded Video</span>
               <span class="clip-badge">
                 ⏱ Clip: <strong>{{ formatTimeSec(clipStartSec) }}</strong> ➔ <strong>{{ formatTimeSec(clipEndSec) }}</strong> ({{ clipDurationSec }}s)
               </span>
@@ -293,9 +336,78 @@
               </button>
             </div>
           </div>
+
+          <!-- Video Notice & Actions for NVR Events -->
+          <div class="video-notice" v-else>
+            <div class="clip-info">
+              <span class="clip-file">🎥 <strong>{{ detailEvent.camera_name || 'Camera ' + detailEvent.camera_id }}</strong></span>
+              <span class="clip-badge" :class="detailVideoSourceType === 'nvr' ? 'source-nvr' : ''">
+                🎥 {{ detailNvrManufacturer || 'NVR' }} Stream Preview
+              </span>
+              <span class="clip-badge">
+                ⏱ {{ formatTimeSec(clipStartSec) }} ➔ {{ formatTimeSec(clipEndSec) }} ({{ clipDurationSec }}s)
+              </span>
+            </div>
+            <div class="clip-actions">
+              <button class="clip-btn replay" @click="replayClip" title="Replay event clip">🔄 Replay Clip</button>
+              <button
+                class="clip-btn toggle"
+                :class="{ unlocked: !enforceClipEnd }"
+                @click="enforceClipEnd = !enforceClipEnd"
+                :title="enforceClipEnd ? 'Stop at clip end time' : 'Play beyond clip end time'"
+              >
+                {{ enforceClipEnd ? '🔒 Clip Only' : '🔓 Full Video' }}
+              </button>
+            </div>
+          </div>
+
+          <!-- NVR Stream Details Box (shown for NVR events below video player) -->
+          <div class="nvr-playback-info" v-if="detailVideoSourceType === 'nvr'">
+            <div class="nvr-header">
+              <span class="nvr-icon">📡</span>
+              <h3>NVR Stream Information</h3>
+              <span class="nvr-manufacturer-badge">{{ detailNvrManufacturer }}</span>
+            </div>
+            <div class="nvr-details">
+              <div class="nvr-field">
+                <span class="nvr-field-label">NVR IP</span>
+                <span class="nvr-field-value">{{ detailEvent.nvr_ip }}</span>
+              </div>
+              <div class="nvr-field">
+                <span class="nvr-field-label">Channel</span>
+                <span class="nvr-field-value">{{ detailEvent.nvr_channel }}</span>
+              </div>
+              <div class="nvr-field">
+                <span class="nvr-field-label">Manufacturer</span>
+                <span class="nvr-field-value">{{ detailNvrManufacturer }}</span>
+              </div>
+            </div>
+            <div class="nvr-rtsp-url">
+              <span class="nvr-field-label">RTSP Playback URL (For VLC / Network Stream)</span>
+              <code class="rtsp-url-code">{{ detailRtspUrl || 'Not available' }}</code>
+              <button
+                v-if="detailRtspUrl"
+                class="copy-rtsp-btn"
+                @click="copyRtspUrl"
+                :title="rtspCopied ? 'Copied!' : 'Copy RTSP URL'"
+              >
+                {{ rtspCopied ? '✅ Copied' : '📋 Copy URL' }}
+              </button>
+            </div>
+            <div class="nvr-error" v-if="detailVideoSourceError">
+              ⚠️ {{ detailVideoSourceError }}
+            </div>
+            <p class="nvr-hint">
+              Browsers do not support RTSP directly, so simulated CCTV camera footage is playing above. Copy the RTSP URL to open the live stream in VLC.
+            </p>
+          </div>
         </div>
 
         <div class="modal-body">
+          <div class="modal-field" v-if="detailEvent.camera_name">
+            <span class="modal-field-label">Camera</span>
+            <span class="modal-field-value">{{ detailEvent.camera_name }} (ID: {{ detailEvent.camera_id }})</span>
+          </div>
           <div class="modal-field">
             <span class="modal-field-label">Start Time</span>
             <span class="modal-field-value">{{ detailEvent.start_time }}</span>
@@ -323,15 +435,96 @@
             </span>
           </div>
           <div class="modal-field">
-            <span class="modal-field-label">Video File</span>
-            <span class="modal-field-value" :class="{ muted: !detailEvent.video_file }">
-              {{ detailEvent.video_file || 'Not connected' }}
+            <span class="modal-field-label">Video Source</span>
+            <span class="modal-field-value">
+              <template v-if="detailVideoSourceType === 'uploaded'">📁 Uploaded ({{ detailShortFilename }})</template>
+              <template v-else-if="detailVideoSourceType === 'nvr'">🎥 NVR ({{ detailNvrManufacturer }})</template>
+              <template v-else class="muted">Not connected</template>
             </span>
           </div>
         </div>
         <div class="modal-json">
           <div class="json-header">Raw JSON</div>
-          <pre class="json-body">{{ JSON.stringify(detailEvent, null, 2) }}</pre>
+          <pre class="json-body">{{ JSON.stringify(detailEventClean, null, 2) }}</pre>
+        </div>
+      </div>
+    </div>
+
+    <!-- Remote Connection Modal (Another City / Cloud Tunnel / VPN) -->
+    <div v-if="showRemoteModal" class="modal-overlay" @click.self="showRemoteModal = false">
+      <div class="remote-modal">
+        <button class="modal-close" @click="showRemoteModal = false">✕</button>
+        <div class="remote-modal-header">
+          <span class="remote-icon">🌐</span>
+          <div>
+            <h3>Computer 1 Remote Connection</h3>
+            <p>Connect to Computer 1 on LAN, across the internet, or in another city</p>
+          </div>
+        </div>
+
+        <div class="remote-modal-body">
+          <div class="current-status-banner" :class="computer1Status">
+            <span class="conn-dot"></span>
+            <div class="status-desc">
+              <strong>Status: {{ computer1StatusText }}</strong>
+              <span class="status-url">{{ currentComputer1Url || 'No URL configured' }}</span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="remote-url-input">Computer 1 Address / URL</label>
+            <div class="input-with-action">
+              <input
+                id="remote-url-input"
+                class="remote-input"
+                type="text"
+                v-model="remoteUrlInput"
+                placeholder="https://xxxx.ngrok-free.app or http://192.168.0.155:5000"
+                @keyup.enter="saveRemoteConnection"
+              />
+              <button
+                class="save-conn-btn"
+                :class="{ loading: savingRemoteConfig }"
+                @click="saveRemoteConnection"
+                :disabled="savingRemoteConfig || !remoteUrlInput.trim()"
+              >
+                <span v-if="savingRemoteConfig" class="btn-spinner"></span>
+                <span v-else>Connect & Save</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="remote-presets">
+            <span class="presets-label">Quick Presets:</span>
+            <button class="preset-chip" @click="remoteUrlInput = 'http://192.168.0.155:5000'">
+              🏠 LAN (192.168.0.155:5000)
+            </button>
+            <button class="preset-chip" @click="remoteUrlInput = 'http://localhost:5000'">
+              💻 Same PC (localhost:5000)
+            </button>
+          </div>
+
+          <div class="remote-instructions">
+            <h4>💡 How to connect across different cities:</h4>
+            <div class="instruction-grid">
+              <div class="instruction-card">
+                <strong>Method 1: Free Cloud Tunnel (Recommended & Easiest)</strong>
+                <p>On Computer 1, run <code class="code-inline">ngrok http 5000</code> or Cloudflare Tunnel (<code class="code-inline">cloudflared tunnel --url http://localhost:5000</code>). Paste the public HTTPS URL above.</p>
+              </div>
+              <div class="instruction-card">
+                <strong>Method 2: Virtual Mesh VPN (Tailscale / ZeroTier)</strong>
+                <p>Install Tailscale on both computers. Enter Computer 1's Tailscale IP: <code class="code-inline">http://100.x.y.z:5000</code>.</p>
+              </div>
+              <div class="instruction-card">
+                <strong>Method 3: Public IP & Port Forwarding</strong>
+                <p>Forward port 5000 on Computer 1's router, and enter its public IP: <code class="code-inline">http://[PUBLIC_IP]:5000</code>.</p>
+              </div>
+            </div>
+          </div>
+
+          <div v-if="remoteSaveFeedback" class="remote-feedback" :class="remoteSaveFeedback.type">
+            {{ remoteSaveFeedback.message }}
+          </div>
         </div>
       </div>
     </div>
@@ -353,27 +546,37 @@ export default {
       loading: false,
       refreshing: false,
       error: null,
+      computer1Status: 'unknown',   // 'connected', 'unreachable', 'unknown'
       detailEvent: null,
       videoError: false,
+      videoSrcFallback: false,
       clipStartSec: 0,
       clipEndSec: 0,
       clipDurationSec: 0,
       enforceClipEnd: true,
       hasSeekedToStart: false,
+      rtspCopied: false,
       cacheTimestamp: null,
+      showRemoteModal: false,
+      remoteUrlInput: '',
+      currentComputer1Url: '',
+      savingRemoteConfig: false,
+      remoteSaveFeedback: null,
       searchQuery: '',
       aiSearchLoading: false,
       aiSearchResults: null,
       aiSearchIntent: null,
       aiSearchUsedFallback: false,
       quickPresets: [
-        'person in orange shirt',
-        'person in red shirt with blue pants',
+        'person in red shirt',
+        'person near front gate',
+        'person with blue pants',
         'car',
-        'track 1',
       ],
       filters: {
         object_type: '',
+        camera_name: '',
+        source_type: '',
         event_id: '',
         track_id: '',
         shirt: '',
@@ -384,6 +587,11 @@ export default {
     }
   },
   computed: {
+    computer1StatusText() {
+      if (this.computer1Status === 'connected') return 'Connected'
+      if (this.computer1Status === 'unreachable') return 'Unreachable'
+      return 'Checking...'
+    },
     isCacheStale() {
       if (!this.cacheTimestamp) return true
       return Date.now() - this.cacheTimestamp > CACHE_TTL_MS
@@ -400,6 +608,16 @@ export default {
 
       if (this.filters.object_type) {
         events = events.filter(e => e.object_type === this.filters.object_type)
+      }
+      if (this.filters.camera_name) {
+        events = events.filter(e => e.camera_name === this.filters.camera_name)
+      }
+      if (this.filters.source_type) {
+        if (this.filters.source_type === 'uploaded') {
+          events = events.filter(e => !!e.video_file)
+        } else if (this.filters.source_type === 'nvr') {
+          events = events.filter(e => !!e.nvr_ip)
+        }
       }
       if (this.filters.event_id) {
         const id = parseInt(this.filters.event_id)
@@ -428,6 +646,8 @@ export default {
       if (this.filters.start_after) {
         const after = new Date(this.filters.start_after)
         events = events.filter(e => {
+          // Skip relative timestamps for date filtering
+          if (this.isRelativeTimestamp(e.start_time)) return true
           const d = new Date(e.start_time.replace(' ', 'T'))
           return d >= after
         })
@@ -435,6 +655,7 @@ export default {
       if (this.filters.start_before) {
         const before = new Date(this.filters.start_before)
         events = events.filter(e => {
+          if (this.isRelativeTimestamp(e.start_time)) return true
           const d = new Date(e.start_time.replace(' ', 'T'))
           return d <= before
         })
@@ -448,8 +669,21 @@ export default {
     vehicleCount() {
       return this.filteredEvents.filter(e => e.object_type !== 'person').length
     },
+    uploadedCount() {
+      return this.filteredEvents.filter(e => !!e.video_file).length
+    },
+    nvrCount() {
+      return this.filteredEvents.filter(e => !!e.nvr_ip && !e.video_file).length
+    },
     uniqueObjectTypes() {
       return [...new Set(this.allEvents.map(e => e.object_type))].sort()
+    },
+    uniqueCameraNames() {
+      return [...new Set(
+        this.allEvents
+          .filter(e => e.camera_name)
+          .map(e => e.camera_name)
+      )].sort()
     },
     uniqueShirtColors() {
       return [...new Set(
@@ -471,6 +705,8 @@ export default {
     activeFilterTags() {
       const tags = []
       if (this.filters.object_type) tags.push({ key: 'object_type', label: `Type: ${this.filters.object_type}` })
+      if (this.filters.camera_name) tags.push({ key: 'camera_name', label: `Camera: ${this.filters.camera_name}` })
+      if (this.filters.source_type) tags.push({ key: 'source_type', label: `Source: ${this.filters.source_type}` })
       if (this.filters.event_id) tags.push({ key: 'event_id', label: `Event #${this.filters.event_id}` })
       if (this.filters.track_id) tags.push({ key: 'track_id', label: `Track #${this.filters.track_id}` })
       if (this.filters.shirt) tags.push({ key: 'shirt', label: `Shirt: ${this.filters.shirt}` })
@@ -479,8 +715,53 @@ export default {
       if (this.filters.start_before) tags.push({ key: 'start_before', label: `Before: ${this.filters.start_before}` })
       return tags
     },
+    // ── Detail modal computed ──
+    detailVideoSource() {
+      if (!this.detailEvent) return null
+      return this.detailEvent.video_source || null
+    },
+    detailVideoSourceType() {
+      return this.detailVideoSource?.source_type || 'unsupported'
+    },
+    detailVideoUrl() {
+      if (this.videoSrcFallback) return '/dummy.mp4'
+      if (!this.detailEvent) return '/dummy.mp4'
+      if (this.detailVideoSourceType === 'uploaded') {
+        const url = this.detailVideoSource?.video_url || ''
+        if (url) {
+          const filename = url.split('/').pop()
+          return `${API_BASE}/proxy/video/${filename}`
+        }
+      }
+      return '/dummy.mp4'
+    },
+    detailRtspUrl() {
+      return this.detailVideoSource?.rtsp_url || ''
+    },
+    detailNvrManufacturer() {
+      const mfr = this.detailVideoSource?.manufacturer || ''
+      return mfr ? mfr.charAt(0).toUpperCase() + mfr.slice(1) : 'Unknown'
+    },
+    detailVideoSourceError() {
+      return this.detailVideoSource?.error || ''
+    },
+    detailShortFilename() {
+      if (!this.detailEvent || !this.detailEvent.video_file) return ''
+      const parts = this.detailEvent.video_file.split('/')
+      return parts[parts.length - 1]
+    },
+    detailEventClean() {
+      // Return event without the enriched video_source for cleaner JSON display
+      if (!this.detailEvent) return {}
+      const { video_source, ...clean } = this.detailEvent
+      return clean
+    },
   },
   methods: {
+    isRelativeTimestamp(dt) {
+      if (!dt) return false
+      return dt.length <= 8 && dt.includes(':') && !dt.includes('-')
+    },
     async fetchEvents(force = false) {
       // Use cache if valid and not forcing
       if (!force && this.cacheTimestamp && !this.isCacheStale) {
@@ -500,12 +781,16 @@ export default {
         const data = await response.json()
         this.allEvents = data.events || []
         this.cacheTimestamp = Date.now()
+
+        // Check Computer 1 status from response
+        this.computer1Status = data.source === 'computer_1' ? 'connected' : 'unreachable'
       } catch (err) {
         if (err.name === 'TypeError' && err.message.includes('fetch')) {
           this.error = 'Unable to connect to the backend server. Make sure Flask is running on http://localhost:5000'
         } else {
           this.error = err.message
         }
+        this.computer1Status = 'unreachable'
       } finally {
         this.loading = false
         this.refreshing = false
@@ -554,6 +839,8 @@ export default {
     clearFilters() {
       this.filters = {
         object_type: '',
+        camera_name: '',
+        source_type: '',
         event_id: '',
         track_id: '',
         shirt: '',
@@ -567,28 +854,54 @@ export default {
     },
     openDetailModal(event) {
       this.videoError = false
+      this.videoSrcFallback = false
       this.detailEvent = event
       this.enforceClipEnd = true
       this.hasSeekedToStart = false
+      this.rtspCopied = false
 
       const bounds = this.getClipBounds(event)
       this.clipStartSec = bounds.start
       this.clipEndSec = bounds.end
       this.clipDurationSec = Math.max(0, bounds.end - bounds.start)
+
+      this.$nextTick(() => {
+        const video = this.$refs.videoPlayer
+        if (video) {
+          video.currentTime = bounds.start
+          video.play().catch(() => {})
+        }
+      })
     },
     getClipBounds(event) {
       if (!event) return { start: 0, end: 10 }
-      if (typeof event.start_sec === 'number' && typeof event.end_sec === 'number') {
-        return { start: event.start_sec, end: event.end_sec }
+
+      // 1. Uploaded video with explicit seconds offset from backend
+      const vs = event.video_source
+      if (vs && vs.source_type === 'uploaded' && typeof vs.start_sec === 'number' && typeof vs.end_sec === 'number') {
+        return { start: vs.start_sec, end: vs.end_sec }
       }
+
+      // 2. Relative time offset (HH:MM:SS format, e.g. "00:00:29" - "00:00:33")
+      if (this.isRelativeTimestamp(event.start_time)) {
+        try {
+          const sParts = event.start_time.split(':').map(Number)
+          const eParts = event.end_time.split(':').map(Number)
+          const startSec = (sParts[0] || 0) * 3600 + (sParts[1] || 0) * 60 + (sParts[2] || 0)
+          const endSec = (eParts[0] || 0) * 3600 + (eParts[1] || 0) * 60 + (eParts[2] || 0)
+          return { start: startSec, end: Math.max(startSec + 3, endSec) }
+        } catch { /* ignore */ }
+      }
+
+      // 3. Wall-clock datetime (NVR events, e.g. "2026-10-05 20:55:08")
       try {
         const timeStrStart = event.start_time.includes(' ') ? event.start_time.split(' ')[1] : event.start_time
         const timeStrEnd = event.end_time.includes(' ') ? event.end_time.split(' ')[1] : event.end_time
-        const startParts = timeStrStart.split(':').map(Number)
-        const endParts = timeStrEnd.split(':').map(Number)
-        const startSec = startParts[0] * 3600 + startParts[1] * 60 + (startParts[2] || 0)
-        const endSec = endParts[0] * 3600 + endParts[1] * 60 + (endParts[2] || 0)
-        return { start: startSec, end: Math.max(startSec + 5, endSec) }
+        const sParts = timeStrStart.split(':').map(Number)
+        const eParts = timeStrEnd.split(':').map(Number)
+        const startSec = (sParts[0] || 0) * 3600 + (sParts[1] || 0) * 60 + (sParts[2] || 0)
+        const endSec = (eParts[0] || 0) * 3600 + (eParts[1] || 0) * 60 + (eParts[2] || 0)
+        return { start: startSec, end: Math.max(startSec + 3, endSec) }
       } catch {
         return { start: 0, end: 30 }
       }
@@ -598,7 +911,11 @@ export default {
       const video = this.$refs.videoPlayer
       if (video && !this.hasSeekedToStart) {
         this.hasSeekedToStart = true
-        video.currentTime = this.clipStartSec
+        if (video.duration && this.clipStartSec > video.duration) {
+          video.currentTime = this.clipStartSec % Math.max(1, Math.floor(video.duration))
+        } else {
+          video.currentTime = this.clipStartSec
+        }
         video.play().catch(() => {})
       }
     },
@@ -615,7 +932,11 @@ export default {
     replayClip() {
       const video = this.$refs.videoPlayer
       if (video) {
-        video.currentTime = this.clipStartSec
+        if (video.duration && this.clipStartSec > video.duration) {
+          video.currentTime = this.clipStartSec % Math.max(1, Math.floor(video.duration))
+        } else {
+          video.currentTime = this.clipStartSec
+        }
         video.play().catch(() => {})
       }
     },
@@ -627,32 +948,123 @@ export default {
       return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`
     },
     onVideoError(e) {
-      console.warn('Video failed to play:', e)
-      this.videoError = true
-    },
-    getVideoSrc(event) {
-      if (!event) return '/dummy.mp4'
-      if (event.video_file) {
-        if (
-          event.video_file.startsWith('http://') ||
-          event.video_file.startsWith('https://') ||
-          event.video_file.startsWith('/')
-        ) {
-          return event.video_file
+      console.warn('Video failed to play source, falling back to /dummy.mp4:', e)
+      if (!this.videoSrcFallback) {
+        this.videoSrcFallback = true
+        const video = this.$refs.videoPlayer
+        if (video) {
+          video.src = '/dummy.mp4'
+          video.load()
+          video.currentTime = this.clipStartSec
+          video.play().catch(() => {})
         }
-        return `/${event.video_file}`
+      } else {
+        this.videoError = true
       }
-      return '/dummy.mp4'
+    },
+    copyRtspUrl() {
+      if (this.detailRtspUrl) {
+        navigator.clipboard.writeText(this.detailRtspUrl).then(() => {
+          this.rtspCopied = true
+          setTimeout(() => { this.rtspCopied = false }, 2000)
+        }).catch(err => {
+          console.error('Failed to copy RTSP URL:', err)
+        })
+      }
     },
     computeDuration(event) {
+      const st = event.start_time
+      const et = event.end_time
+
+      // Try full datetime
       try {
-        const start = new Date(event.start_time.replace(' ', 'T'))
-        const end = new Date(event.end_time.replace(' ', 'T'))
-        const diff = Math.round((end - start) / 1000)
-        return diff >= 0 ? `${diff}s` : '?'
-      } catch {
-        return '?'
+        const start = new Date(st.replace(' ', 'T'))
+        const end = new Date(et.replace(' ', 'T'))
+        if (!isNaN(start) && !isNaN(end) && start.getFullYear() > 1970) {
+          const diff = Math.round((end - start) / 1000)
+          return diff >= 0 ? `${diff}s` : '?'
+        }
+      } catch { /* ignore */ }
+
+      // Try relative time offset (HH:MM:SS)
+      try {
+        const sParts = st.split(':').map(Number)
+        const eParts = et.split(':').map(Number)
+        if (sParts.length >= 2 && eParts.length >= 2) {
+          const sSec = (sParts[0] || 0) * 3600 + (sParts[1] || 0) * 60 + (sParts[2] || 0)
+          const eSec = (eParts[0] || 0) * 3600 + (eParts[1] || 0) * 60 + (eParts[2] || 0)
+          const diff = eSec - sSec
+          return diff >= 0 ? `${diff}s` : '?'
+        }
+      } catch { /* ignore */ }
+
+      return '?'
+    },
+    async openRemoteConfigModal() {
+      this.showRemoteModal = true
+      this.remoteSaveFeedback = null
+      try {
+        const resp = await fetch(`${API_BASE}/api/config/computer-1`)
+        if (resp.ok) {
+          const data = await resp.json()
+          this.currentComputer1Url = data.url || ''
+          this.remoteUrlInput = data.url || ''
+          this.computer1Status = data.status === 'connected' ? 'connected' : 'unreachable'
+        }
+      } catch (e) {
+        console.warn('Could not fetch remote config:', e)
       }
+    },
+    async saveRemoteConnection() {
+      const target = this.remoteUrlInput.trim()
+      if (!target) return
+      this.savingRemoteConfig = true
+      this.remoteSaveFeedback = null
+
+      try {
+        const resp = await fetch(`${API_BASE}/api/config/computer-1`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ url: target }),
+        })
+        const data = await resp.json()
+        if (resp.ok) {
+          this.currentComputer1Url = data.url
+          this.computer1Status = data.status === 'connected' ? 'connected' : 'unreachable'
+          this.remoteSaveFeedback = {
+            type: data.status === 'connected' ? 'success' : 'error',
+            message: data.status === 'connected'
+              ? `Connected successfully to Computer 1 at ${data.url}!`
+              : `Saved URL ${data.url}, but Computer 1 is currently unreachable. Make sure the server or tunnel is running on Computer 1.`,
+          }
+          if (data.status === 'connected') {
+            await this.refreshEvents()
+          }
+        } else {
+          this.remoteSaveFeedback = {
+            type: 'error',
+            message: data.error || 'Failed to update Computer 1 configuration.',
+          }
+        }
+      } catch (err) {
+        this.remoteSaveFeedback = {
+          type: 'error',
+          message: `Network error: ${err.message}`,
+        }
+      } finally {
+        this.savingRemoteConfig = false
+      }
+    },
+    async checkRemoteConfig() {
+      try {
+        const resp = await fetch(`${API_BASE}/api/config/computer-1`)
+        if (resp.ok) {
+          const data = await resp.json()
+          this.currentComputer1Url = data.url || ''
+          this.remoteUrlInput = data.url || ''
+          this.computer1Status = data.status === 'connected' ? 'connected' : 'unreachable'
+        }
+      } catch { /* ignore */ }
     },
   },
   watch: {
@@ -664,6 +1076,7 @@ export default {
     },
   },
   mounted() {
+    this.checkRemoteConfig()
     this.fetchEvents()
 
     // Update cache status text every second

@@ -2,39 +2,45 @@
   {
     "event_id": 1,
     "track_id": 1,
+    "camera_id": 1,
+    "camera_name": "Front Gate",
+    "nvr_ip": "192.168.0.112",
+    "nvr_channel": 1,
     "object_type": "person",
-    "start_time": "2026-08-31 20:55:08",
-    "end_time": "2026-08-31 20:55:22",
-    "start_sec": 75308,
-    "end_sec": 75322,
+    "start_time": "2026-10-05 20:55:08",
+    "end_time": "2026-10-05 20:55:22",
     "attributes": {
       "shirt": "red",
       "pants": "black"
     },
-    "video_file": "dummy.mp4"
+    "video_file": null
   },
   {
     "event_id": 2,
-    "track_id": 1,
+    "track_id": 2,
+    "camera_id": 1,
+    "camera_name": "Front Gate",
+    "nvr_ip": "192.168.0.112",
+    "nvr_channel": 1,
     "object_type": "person",
-    "start_time": "2026-08-31 22:51:32",
-    "end_time": "2026-08-31 22:52:15",
-    "start_sec": 82292,
-    "end_sec": 82335,
+    "start_time": "2026-10-05 22:51:32",
+    "end_time": "2026-10-05 22:52:15",
     "attributes": {
       "shirt": "red",
       "pants": "blue"
     },
-    "video_file": "dummy.mp4"
+    "video_file": null
   },
   {
     "event_id": 3,
-    "track_id": 2,
+    "track_id": 3,
+    "camera_id": 2,
+    "camera_name": "Parking Lot",
+    "nvr_ip": "192.168.0.112",
+    "nvr_channel": 2,
     "object_type": "person",
-    "start_time": "2026-08-31 23:20:01",
-    "end_time": "2026-08-31 23:20:41",
-    "start_sec": 84001,
-    "end_sec": 84041,
+    "start_time": "2026-10-05 23:20:01",
+    "end_time": "2026-10-05 23:20:41",
     "attributes": {
       "shirt": "blue",
       "pants": "gray"
@@ -43,12 +49,14 @@
   },
   {
     "event_id": 4,
-    "track_id": 3,
+    "track_id": 4,
+    "camera_id": 3,
+    "camera_name": "Back Door",
+    "nvr_ip": "192.168.0.112",
+    "nvr_channel": 3,
     "object_type": "person",
-    "start_time": "2026-08-31 09:15:00",
-    "end_time": "2026-08-31 09:15:42",
-    "start_sec": 33300,
-    "end_sec": 33342,
+    "start_time": "2026-10-05 09:15:00",
+    "end_time": "2026-10-05 09:15:42",
     "attributes": {
       "shirt": "white",
       "pants": "blue"
@@ -57,12 +65,14 @@
   },
   {
     "event_id": 5,
-    "track_id": 4,
+    "track_id": 5,
+    "camera_id": 1,
+    "camera_name": "Front Gate",
+    "nvr_ip": "192.168.0.112",
+    "nvr_channel": 1,
     "object_type": "person",
-    "start_time": "2026-08-31 14:30:20",
-    "end_time": "2026-08-31 14:31:05",
-    "start_sec": 52220,
-    "end_sec": 52265,
+    "start_time": "2026-10-05 14:30:20",
+    "end_time": "2026-10-05 14:31:05",
     "attributes": {
       "shirt": "green",
       "pants": "black"
@@ -71,12 +81,14 @@
   },
   {
     "event_id": 6,
-    "track_id": 2,
+    "track_id": 6,
+    "camera_id": 2,
+    "camera_name": "Parking Lot",
+    "nvr_ip": "192.168.0.112",
+    "nvr_channel": 2,
     "object_type": "person",
-    "start_time": "2026-08-31 08:05:10",
-    "end_time": "2026-08-31 08:05:55",
-    "start_sec": 29110,
-    "end_sec": 29155,
+    "start_time": "2026-10-05 08:05:10",
+    "end_time": "2026-10-05 08:05:55",
     "attributes": {
       "shirt": "black",
       "pants": "gray"
@@ -85,12 +97,14 @@
   },
   {
     "event_id": 7,
-    "track_id": 3,
+    "track_id": 7,
+    "camera_id": 4,
+    "camera_name": "Corridor",
+    "nvr_ip": "192.168.0.112",
+    "nvr_channel": 4,
     "object_type": "person",
-    "start_time": "2026-08-31 19:45:30",
-    "end_time": "2026-08-31 19:46:12",
-    "start_sec": 71130,
-    "end_sec": 71172,
+    "start_time": "2026-10-05 19:45:30",
+    "end_time": "2026-10-05 19:46:12",
     "attributes": {
       "shirt": "yellow",
       "pants": "white"
@@ -99,12 +113,14 @@
   },
   {
     "event_id": 8,
-    "track_id": 1,
+    "track_id": 8,
+    "camera_id": 1,
+    "camera_name": "Front Gate",
+    "nvr_ip": "192.168.0.112",
+    "nvr_channel": 1,
     "object_type": "person",
-    "start_time": "2026-08-31 21:10:00",
-    "end_time": "2026-08-31 21:10:35",
-    "start_sec": 76200,
-    "end_sec": 76235,
+    "start_time": "2026-10-05 21:10:00",
+    "end_time": "2026-10-05 21:10:35",
     "attributes": {
       "shirt": "orange",
       "pants": "blue"
@@ -113,12 +129,14 @@
   },
   {
     "event_id": 9,
-    "track_id": 4,
+    "track_id": 9,
+    "camera_id": 3,
+    "camera_name": "Back Door",
+    "nvr_ip": "192.168.0.112",
+    "nvr_channel": 3,
     "object_type": "person",
-    "start_time": "2026-08-31 16:22:15",
-    "end_time": "2026-08-31 16:23:00",
-    "start_sec": 58935,
-    "end_sec": 58980,
+    "start_time": "2026-10-05 16:22:15",
+    "end_time": "2026-10-05 16:23:00",
     "attributes": {
       "shirt": "gray",
       "pants": "black"
@@ -127,12 +145,14 @@
   },
   {
     "event_id": 10,
-    "track_id": 2,
+    "track_id": 10,
+    "camera_id": 2,
+    "camera_name": "Parking Lot",
+    "nvr_ip": "192.168.0.112",
+    "nvr_channel": 2,
     "object_type": "person",
-    "start_time": "2026-08-31 20:05:30",
-    "end_time": "2026-08-31 20:06:10",
-    "start_sec": 72330,
-    "end_sec": 72370,
+    "start_time": "2026-10-05 20:05:30",
+    "end_time": "2026-10-05 20:06:10",
     "attributes": {
       "shirt": "red",
       "pants": "white"
@@ -141,60 +161,76 @@
   },
   {
     "event_id": 11,
-    "track_id": 1,
-    "object_type": "person",
-    "start_time": "2026-08-31 20:55:08",
-    "end_time": "2026-08-31 20:55:22",
-    "start_sec": 75308,
-    "end_sec": 75322,
-    "attributes": {
-      "shirt": "orange",
-      "pants": "blue"
-    },
+    "track_id": 11,
+    "camera_id": 1,
+    "camera_name": "Front Gate",
+    "nvr_ip": "192.168.0.112",
+    "nvr_channel": 1,
+    "object_type": "car",
+    "start_time": "2026-10-05 20:30:00",
+    "end_time": "2026-10-05 20:30:25",
+    "attributes": {},
     "video_file": null
   },
   {
     "event_id": 12,
-    "track_id": 5,
+    "track_id": 12,
+    "camera_id": 2,
+    "camera_name": "Parking Lot",
+    "nvr_ip": "192.168.0.112",
+    "nvr_channel": 2,
     "object_type": "car",
-    "start_time": "2026-08-31 20:30:00",
-    "end_time": "2026-08-31 20:30:25",
-    "start_sec": 73800,
-    "end_sec": 73825,
+    "start_time": "2026-10-05 21:15:40",
+    "end_time": "2026-10-05 21:16:10",
     "attributes": {},
     "video_file": null
   },
   {
-    "event_id": 13,
-    "track_id": 6,
-    "object_type": "car",
-    "start_time": "2026-08-31 21:15:40",
-    "end_time": "2026-08-31 21:16:10",
-    "start_sec": 76540,
-    "end_sec": 76570,
-    "attributes": {},
-    "video_file": null
+    "event_id": 20,
+    "track_id": 25,
+    "camera_id": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:00:29",
+    "end_time": "00:00:33",
+    "attributes": {
+      "shirt": "gray",
+      "pants": "gray"
+    },
+    "video_file": "uploads/people-detection.mp4"
   },
   {
-    "event_id": 14,
-    "track_id": 7,
-    "object_type": "car",
-    "start_time": "2026-08-31 22:05:00",
-    "end_time": "2026-08-31 22:05:30",
-    "start_sec": 79500,
-    "end_sec": 79530,
-    "attributes": {},
-    "video_file": null
+    "event_id": 21,
+    "track_id": 26,
+    "camera_id": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:01:05",
+    "end_time": "00:01:12",
+    "attributes": {
+      "shirt": "blue",
+      "pants": "black"
+    },
+    "video_file": "uploads/people-detection.mp4"
   },
   {
-    "event_id": 15,
-    "track_id": 8,
-    "object_type": "car",
-    "start_time": "2026-08-31 19:50:15",
-    "end_time": "2026-08-31 19:50:55",
-    "start_sec": 71415,
-    "end_sec": 71455,
-    "attributes": {},
-    "video_file": null
+    "event_id": 22,
+    "track_id": 27,
+    "camera_id": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:02:30",
+    "end_time": "00:02:45",
+    "attributes": {
+      "shirt": "red",
+      "pants": "blue"
+    },
+    "video_file": "uploads/office-footage.mp4"
   }
 ]

@@ -23,12 +23,13 @@ Convert the user's natural language query into structured JSON.
 Extract only information explicitly present in the query.
 
 Possible fields:
-- object_type: "person" or "vehicle"
+- object_type: "person" or "vehicle" or specific type like "car", "truck"
 - shirt: color of the shirt (for persons)
 - pants: color of the pants (for persons)
 - vehicle_type: "car", "truck", "motorcycle", "bus", etc.
 - vehicle_color: color of the vehicle
-- camera_id: camera identifier like "CAM_01"
+- camera_id: camera identifier (numeric like 1, or string like "CAM_01")
+- camera_name: camera location name like "Front Gate", "Room", "Parking"
 - time_after: time in HH:MM format (24-hour)
 - time_before: time in HH:MM format (24-hour)
 
@@ -44,6 +45,12 @@ Output: {"object_type": "vehicle", "camera_id": "CAM_02", "time_before": "21:00"
 
 User: Show a person with blue pants and white shirt.
 Output: {"object_type": "person", "shirt": "white", "pants": "blue"}
+
+User: Show me the person near the front gate wearing a red shirt.
+Output: {"object_type": "person", "camera_name": "Front Gate", "shirt": "red"}
+
+User: Find person in the room.
+Output: {"object_type": "person", "camera_name": "Room"}
 """
 
 
@@ -209,11 +216,26 @@ def mock_extract_intent(query: str) -> dict:
                 intent["vehicle_color"] = c
                 break
 
-    # ── Camera ──
+    # ── Camera ID ──
     cam_match = _CAM_RE.search(query)
     if cam_match:
         cam_num = int(cam_match.group(1))
         intent["camera_id"] = f"CAM_{cam_num:02d}"
+
+    # ── Camera Name / Location ──
+    location_keywords = [
+        ("front gate", "Front Gate"),
+        ("gate", "Front Gate"),
+        ("parking lot", "Parking Lot"),
+        ("parking", "Parking Lot"),
+        ("back door", "Back Door"),
+        ("corridor", "Corridor"),
+        ("room", "Room"),
+    ]
+    for loc_key, loc_name in location_keywords:
+        if re.search(r"\b" + re.escape(loc_key) + r"\b", q):
+            intent["camera_name"] = loc_name
+            break
 
     # ── Time ──
     time_val = _parse_time(query)

@@ -23,6 +23,21 @@
       </div>
     </div>
 
+    <!-- Camera Info -->
+    <div class="card-camera" v-if="event.camera_name">
+      <span class="camera-icon">📷</span>
+      <span class="camera-name">{{ event.camera_name }}</span>
+      <span class="camera-id" v-if="event.camera_id">· Cam {{ event.camera_id }}</span>
+    </div>
+
+    <!-- Source Badge -->
+    <div class="card-source-badge" :class="sourceType">
+      <span v-if="sourceType === 'uploaded'" class="source-icon">📁</span>
+      <span v-else-if="sourceType === 'nvr'" class="source-icon">🎥</span>
+      <span v-else class="source-icon">❓</span>
+      <span class="source-label">{{ sourceLabel }}</span>
+    </div>
+
     <!-- Timestamps -->
     <div class="card-times">
       <div class="card-time-row">
@@ -60,12 +75,20 @@
       <span class="no-attrs">No attributes</span>
     </div>
 
-    <!-- Video file indicator -->
+    <!-- Video file / NVR indicator -->
     <div class="card-footer">
-      <span class="video-status connected">
-        🎬 {{ event.video_file || 'dummy.mp4' }}
+      <span class="video-status" :class="sourceType">
+        <template v-if="sourceType === 'uploaded'">
+          🎬 {{ shortFilename }}
+        </template>
+        <template v-else-if="sourceType === 'nvr'">
+          🎥 NVR {{ event.nvr_ip }}:{{ event.nvr_channel }}
+        </template>
+        <template v-else>
+          ⚠️ No video source
+        </template>
       </span>
-      <button class="card-play-btn" title="Play video clip">
+      <button class="card-play-btn" title="Play video clip" @click.stop="$emit('view-details', event)">
         ▶ Play Video
       </button>
     </div>
@@ -92,16 +115,54 @@ export default {
   },
   computed: {
     duration() {
+      const st = this.event.start_time
+      const et = this.event.end_time
+
+      // Try full datetime first
       try {
-        const start = new Date(this.event.start_time.replace(' ', 'T'))
-        const end = new Date(this.event.end_time.replace(' ', 'T'))
-        const diff = Math.round((end - start) / 1000)
-        return diff >= 0 ? `${diff}s` : '?'
-      } catch { return '?' }
+        const start = new Date(st.replace(' ', 'T'))
+        const end = new Date(et.replace(' ', 'T'))
+        if (!isNaN(start) && !isNaN(end) && start.getFullYear() > 1970) {
+          const diff = Math.round((end - start) / 1000)
+          return diff >= 0 ? `${diff}s` : '?'
+        }
+      } catch { /* ignore */ }
+
+      // Try relative time offset (HH:MM:SS)
+      try {
+        const sParts = st.split(':').map(Number)
+        const eParts = et.split(':').map(Number)
+        if (sParts.length >= 2 && eParts.length >= 2) {
+          const sSec = (sParts[0] || 0) * 3600 + (sParts[1] || 0) * 60 + (sParts[2] || 0)
+          const eSec = (eParts[0] || 0) * 3600 + (eParts[1] || 0) * 60 + (eParts[2] || 0)
+          const diff = eSec - sSec
+          return diff >= 0 ? `${diff}s` : '?'
+        }
+      } catch { /* ignore */ }
+
+      return '?'
     },
     hasAttributes() {
       const a = this.event.attributes
       return a && Object.keys(a).length > 0
+    },
+    sourceType() {
+      if (this.event.video_file) return 'uploaded'
+      if (this.event.nvr_ip) return 'nvr'
+      return 'unknown'
+    },
+    sourceLabel() {
+      if (this.sourceType === 'uploaded') return 'Uploaded'
+      if (this.sourceType === 'nvr') {
+        const mfr = this.event.video_source?.manufacturer
+        return mfr ? mfr.charAt(0).toUpperCase() + mfr.slice(1) : 'NVR'
+      }
+      return 'Unknown'
+    },
+    shortFilename() {
+      if (!this.event.video_file) return ''
+      const parts = this.event.video_file.split('/')
+      return parts[parts.length - 1]
     },
   },
   methods: {
