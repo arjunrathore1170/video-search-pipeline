@@ -1,193 +1,119 @@
 [
   {
     "event_id": 1,
-    "track_id": 1,
+    "track_id": 2,
     "camera_id": 1,
-    "camera_name": "Front Gate",
-    "nvr_ip": "192.168.0.112",
-    "nvr_channel": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
     "object_type": "person",
-    "start_time": "2026-10-05 20:55:08",
-    "end_time": "2026-10-05 20:55:22",
+    "start_time": "00:00:02",
+    "end_time": "00:00:06",
     "attributes": {
-      "shirt": "red",
-      "pants": "black"
+      "shirt": "black",
+      "pants": "blue"
     },
-    "video_file": null
+    "video_file": "uploads/people-detection_9.mp4"
   },
   {
     "event_id": 2,
-    "track_id": 2,
+    "track_id": 5,
     "camera_id": 1,
-    "camera_name": "Front Gate",
-    "nvr_ip": "192.168.0.112",
-    "nvr_channel": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
     "object_type": "person",
-    "start_time": "2026-10-05 22:51:32",
-    "end_time": "2026-10-05 22:52:15",
+    "start_time": "00:00:15",
+    "end_time": "00:00:16",
     "attributes": {
-      "shirt": "red",
-      "pants": "blue"
+      "shirt": "blue",
+      "pants": "black"
     },
-    "video_file": null
+    "video_file": "uploads/people-detection_9.mp4"
   },
   {
     "event_id": 3,
-    "track_id": 3,
-    "camera_id": 2,
-    "camera_name": "Parking Lot",
-    "nvr_ip": "192.168.0.112",
-    "nvr_channel": 2,
+    "track_id": 6,
+    "camera_id": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
     "object_type": "person",
-    "start_time": "2026-10-05 23:20:01",
-    "end_time": "2026-10-05 23:20:41",
+    "start_time": "00:00:17",
+    "end_time": "00:00:19",
     "attributes": {
       "shirt": "blue",
-      "pants": "gray"
+      "pants": "black"
     },
-    "video_file": null
+    "video_file": "uploads/people-detection_9.mp4"
   },
   {
     "event_id": 4,
     "track_id": 4,
-    "camera_id": 3,
-    "camera_name": "Back Door",
-    "nvr_ip": "192.168.0.112",
-    "nvr_channel": 3,
+    "camera_id": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
     "object_type": "person",
-    "start_time": "2026-10-05 09:15:00",
-    "end_time": "2026-10-05 09:15:42",
+    "start_time": "00:00:15",
+    "end_time": "00:00:19",
     "attributes": {
-      "shirt": "white",
-      "pants": "blue"
+      "shirt": "gray",
+      "pants": "red"
     },
-    "video_file": null
+    "video_file": "uploads/people-detection_9.mp4"
   },
   {
     "event_id": 5,
-    "track_id": 5,
+    "track_id": 6,
     "camera_id": 1,
-    "camera_name": "Front Gate",
-    "nvr_ip": "192.168.0.112",
-    "nvr_channel": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
     "object_type": "person",
-    "start_time": "2026-10-05 14:30:20",
-    "end_time": "2026-10-05 14:31:05",
+    "start_time": "00:00:20",
+    "end_time": "00:00:20",
     "attributes": {
-      "shirt": "green",
+      "shirt": "red",
       "pants": "black"
     },
-    "video_file": null
+    "video_file": "uploads/people-detection_9.mp4"
   },
   {
     "event_id": 6,
-    "track_id": 6,
-    "camera_id": 2,
-    "camera_name": "Parking Lot",
-    "nvr_ip": "192.168.0.112",
-    "nvr_channel": 2,
+    "track_id": 12,
+    "camera_id": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
     "object_type": "person",
-    "start_time": "2026-10-05 08:05:10",
-    "end_time": "2026-10-05 08:05:55",
+    "start_time": "00:00:28",
+    "end_time": "00:00:30",
     "attributes": {
       "shirt": "black",
-      "pants": "gray"
+      "pants": "black"
     },
-    "video_file": null
+    "video_file": "uploads/people-detection_9.mp4"
   },
   {
     "event_id": 7,
-    "track_id": 7,
-    "camera_id": 4,
-    "camera_name": "Corridor",
-    "nvr_ip": "192.168.0.112",
-    "nvr_channel": 4,
+    "track_id": 16,
+    "camera_id": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
     "object_type": "person",
-    "start_time": "2026-10-05 19:45:30",
-    "end_time": "2026-10-05 19:46:12",
+    "start_time": "00:00:29",
+    "end_time": "00:00:30",
     "attributes": {
-      "shirt": "yellow",
-      "pants": "white"
+      "shirt": "unknown",
+      "pants": "unknown"
     },
-    "video_file": null
+    "video_file": "uploads/people-detection_9.mp4"
   },
   {
     "event_id": 8,
-    "track_id": 8,
-    "camera_id": 1,
-    "camera_name": "Front Gate",
-    "nvr_ip": "192.168.0.112",
-    "nvr_channel": 1,
-    "object_type": "person",
-    "start_time": "2026-10-05 21:10:00",
-    "end_time": "2026-10-05 21:10:35",
-    "attributes": {
-      "shirt": "orange",
-      "pants": "blue"
-    },
-    "video_file": null
-  },
-  {
-    "event_id": 9,
-    "track_id": 9,
-    "camera_id": 3,
-    "camera_name": "Back Door",
-    "nvr_ip": "192.168.0.112",
-    "nvr_channel": 3,
-    "object_type": "person",
-    "start_time": "2026-10-05 16:22:15",
-    "end_time": "2026-10-05 16:23:00",
-    "attributes": {
-      "shirt": "gray",
-      "pants": "black"
-    },
-    "video_file": null
-  },
-  {
-    "event_id": 10,
-    "track_id": 10,
-    "camera_id": 2,
-    "camera_name": "Parking Lot",
-    "nvr_ip": "192.168.0.112",
-    "nvr_channel": 2,
-    "object_type": "person",
-    "start_time": "2026-10-05 20:05:30",
-    "end_time": "2026-10-05 20:06:10",
-    "attributes": {
-      "shirt": "red",
-      "pants": "white"
-    },
-    "video_file": null
-  },
-  {
-    "event_id": 11,
-    "track_id": 11,
-    "camera_id": 1,
-    "camera_name": "Front Gate",
-    "nvr_ip": "192.168.0.112",
-    "nvr_channel": 1,
-    "object_type": "car",
-    "start_time": "2026-10-05 20:30:00",
-    "end_time": "2026-10-05 20:30:25",
-    "attributes": {},
-    "video_file": null
-  },
-  {
-    "event_id": 12,
-    "track_id": 12,
-    "camera_id": 2,
-    "camera_name": "Parking Lot",
-    "nvr_ip": "192.168.0.112",
-    "nvr_channel": 2,
-    "object_type": "car",
-    "start_time": "2026-10-05 21:15:40",
-    "end_time": "2026-10-05 21:16:10",
-    "attributes": {},
-    "video_file": null
-  },
-  {
-    "event_id": 20,
-    "track_id": 25,
+    "track_id": 17,
     "camera_id": 1,
     "camera_name": "Room",
     "nvr_ip": null,
@@ -199,38 +125,6224 @@
       "shirt": "gray",
       "pants": "gray"
     },
-    "video_file": "uploads/people-detection.mp4"
+    "video_file": "uploads/people-detection_9.mp4"
   },
   {
-    "event_id": 21,
-    "track_id": 26,
+    "event_id": 9,
+    "track_id": 18,
     "camera_id": 1,
     "camera_name": "Room",
     "nvr_ip": null,
     "nvr_channel": null,
     "object_type": "person",
-    "start_time": "00:01:05",
-    "end_time": "00:01:12",
+    "start_time": "00:00:30",
+    "end_time": "00:00:33",
+    "attributes": {
+      "shirt": "black",
+      "pants": "black"
+    },
+    "video_file": "uploads/people-detection_9.mp4"
+  },
+  {
+    "event_id": 10,
+    "track_id": 31,
+    "camera_id": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:00:44",
+    "end_time": "00:00:44",
+    "attributes": {
+      "shirt": "dark_gray",
+      "pants": "red"
+    },
+    "video_file": "uploads/people-detection_9.mp4"
+  },
+  {
+    "event_id": 11,
+    "track_id": 2,
+    "camera_id": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:00:02",
+    "end_time": "00:00:06",
+    "attributes": {
+      "shirt": "gray",
+      "pants": "blue"
+    },
+    "video_file": "uploads/people-detection_9.mp4"
+  },
+  {
+    "event_id": 12,
+    "track_id": 5,
+    "camera_id": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:00:15",
+    "end_time": "00:00:16",
     "attributes": {
       "shirt": "blue",
       "pants": "black"
     },
-    "video_file": "uploads/people-detection.mp4"
+    "video_file": "uploads/people-detection_9.mp4"
   },
   {
-    "event_id": 22,
-    "track_id": 27,
+    "event_id": 13,
+    "track_id": 6,
     "camera_id": 1,
     "camera_name": "Room",
     "nvr_ip": null,
     "nvr_channel": null,
     "object_type": "person",
-    "start_time": "00:02:30",
-    "end_time": "00:02:45",
+    "start_time": "00:00:17",
+    "end_time": "00:00:19",
+    "attributes": {
+      "shirt": "blue",
+      "pants": "black"
+    },
+    "video_file": "uploads/people-detection_9.mp4"
+  },
+  {
+    "event_id": 14,
+    "track_id": 4,
+    "camera_id": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:00:15",
+    "end_time": "00:00:20",
+    "attributes": {
+      "shirt": "gray",
+      "pants": "dark_gray"
+    },
+    "video_file": "uploads/people-detection_9.mp4"
+  },
+  {
+    "event_id": 15,
+    "track_id": 14,
+    "camera_id": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:00:29",
+    "end_time": "00:00:30",
+    "attributes": {
+      "shirt": "unknown",
+      "pants": "unknown"
+    },
+    "video_file": "uploads/people-detection_9.mp4"
+  },
+  {
+    "event_id": 16,
+    "track_id": 10,
+    "camera_id": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:00:28",
+    "end_time": "00:00:30",
+    "attributes": {
+      "shirt": "black",
+      "pants": "black"
+    },
+    "video_file": "uploads/people-detection_9.mp4"
+  },
+  {
+    "event_id": 17,
+    "track_id": 15,
+    "camera_id": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:00:29",
+    "end_time": "00:00:33",
+    "attributes": {
+      "shirt": "gray",
+      "pants": "gray"
+    },
+    "video_file": "uploads/people-detection_9.mp4"
+  },
+  {
+    "event_id": 18,
+    "track_id": 16,
+    "camera_id": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:00:30",
+    "end_time": "00:00:33",
+    "attributes": {
+      "shirt": "dark_gray",
+      "pants": "black"
+    },
+    "video_file": "uploads/people-detection_9.mp4"
+  },
+  {
+    "event_id": 19,
+    "track_id": 26,
+    "camera_id": 2,
+    "camera_name": "Gate",
+    "nvr_ip": "192.168.0.112",
+    "nvr_channel": 6,
+    "object_type": "person",
+    "start_time": "2026-10-08 18:14:29",
+    "end_time": "2026-10-08 18:14:39",
+    "attributes": {
+      "shirt": "dark_gray",
+      "pants": "dark_gray"
+    },
+    "video_file": null
+  },
+  {
+    "event_id": 20,
+    "track_id": 35,
+    "camera_id": 2,
+    "camera_name": "Lap",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "2026-10-08 18:18:31",
+    "end_time": "2026-10-08 18:18:31",
+    "attributes": {
+      "shirt": "black",
+      "pants": "black"
+    },
+    "video_file": null
+  },
+  {
+    "event_id": 21,
+    "track_id": 177,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:00:07",
+    "end_time": "00:00:08",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 22,
+    "track_id": 188,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:08",
+    "end_time": "00:00:09",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 23,
+    "track_id": 152,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:08",
+    "end_time": "00:00:09",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 24,
+    "track_id": 237,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:09",
+    "end_time": "00:00:11",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 25,
+    "track_id": 224,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:09",
+    "end_time": "00:00:11",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 26,
+    "track_id": 292,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:11",
+    "end_time": "00:00:13",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 21,
+    "track_id": 391,
+    "camera_id": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:00:19",
+    "end_time": "00:00:19",
     "attributes": {
       "shirt": "red",
-      "pants": "blue"
+      "pants": "dark_gray"
     },
-    "video_file": "uploads/office-footage.mp4"
+    "video_file": "uploads/people-detection_9.mp4"
+  },
+  {
+    "event_id": 27,
+    "track_id": 451,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:19",
+    "end_time": "00:00:20",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 28,
+    "track_id": 448,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:19",
+    "end_time": "00:00:20",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 29,
+    "track_id": 446,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:19",
+    "end_time": "00:00:24",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 30,
+    "track_id": 499,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:00:22",
+    "end_time": "00:00:25",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 31,
+    "track_id": 512,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:23",
+    "end_time": "00:00:25",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 32,
+    "track_id": 449,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:00:24",
+    "end_time": "00:00:26",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 22,
+    "track_id": 449,
+    "camera_id": 1,
+    "camera_name": "Room",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:00:30",
+    "end_time": "00:00:33",
+    "attributes": {
+      "shirt": "dark_gray",
+      "pants": "black"
+    },
+    "video_file": "uploads/people-detection_9.mp4"
+  },
+  {
+    "event_id": 33,
+    "track_id": 713,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:00:29",
+    "end_time": "00:00:31",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 34,
+    "track_id": 483,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:21",
+    "end_time": "00:00:33",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 35,
+    "track_id": 736,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:00:30",
+    "end_time": "00:00:33",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 36,
+    "track_id": 706,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:29",
+    "end_time": "00:00:34",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 37,
+    "track_id": 785,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:00:33",
+    "end_time": "00:00:34",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 38,
+    "track_id": 748,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "truck",
+    "start_time": "00:00:31",
+    "end_time": "00:00:35",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 39,
+    "track_id": 742,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:30",
+    "end_time": "00:00:36",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 40,
+    "track_id": 781,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:00:33",
+    "end_time": "00:00:37",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 41,
+    "track_id": 752,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:00:31",
+    "end_time": "00:00:37",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 42,
+    "track_id": 698,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:00:29",
+    "end_time": "00:00:38",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 43,
+    "track_id": 734,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:30",
+    "end_time": "00:00:39",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 44,
+    "track_id": 854,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:00:38",
+    "end_time": "00:00:39",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 45,
+    "track_id": 700,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:29",
+    "end_time": "00:00:41",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 46,
+    "track_id": 751,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:31",
+    "end_time": "00:00:41",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 47,
+    "track_id": 884,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:00:40",
+    "end_time": "00:00:41",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 48,
+    "track_id": 798,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:34",
+    "end_time": "00:00:41",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 49,
+    "track_id": 855,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:38",
+    "end_time": "00:00:41",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 50,
+    "track_id": 867,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:39",
+    "end_time": "00:00:42",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 51,
+    "track_id": 918,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:43",
+    "end_time": "00:00:44",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 52,
+    "track_id": 939,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:43",
+    "end_time": "00:00:44",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 53,
+    "track_id": 922,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:00:43",
+    "end_time": "00:00:46",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 54,
+    "track_id": 886,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:00:40",
+    "end_time": "00:00:46",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 55,
+    "track_id": 954,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:00:45",
+    "end_time": "00:00:46",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 56,
+    "track_id": 947,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:00:44",
+    "end_time": "00:00:47",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 57,
+    "track_id": 988,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:46",
+    "end_time": "00:00:49",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 58,
+    "track_id": 1020,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:48",
+    "end_time": "00:00:49",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 59,
+    "track_id": 920,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:43",
+    "end_time": "00:00:49",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 60,
+    "track_id": 873,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:39",
+    "end_time": "00:00:50",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 61,
+    "track_id": 1038,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:50",
+    "end_time": "00:00:50",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 62,
+    "track_id": 980,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:46",
+    "end_time": "00:00:51",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 63,
+    "track_id": 1057,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:51",
+    "end_time": "00:00:51",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 64,
+    "track_id": 930,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:43",
+    "end_time": "00:00:52",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 65,
+    "track_id": 1074,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:52",
+    "end_time": "00:00:52",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 66,
+    "track_id": 981,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:46",
+    "end_time": "00:00:52",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 67,
+    "track_id": 1048,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:00:50",
+    "end_time": "00:00:53",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 68,
+    "track_id": 1083,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:53",
+    "end_time": "00:00:53",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 69,
+    "track_id": 982,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:00:46",
+    "end_time": "00:00:54",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 70,
+    "track_id": 1090,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:54",
+    "end_time": "00:00:54",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 71,
+    "track_id": 944,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:44",
+    "end_time": "00:00:55",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 72,
+    "track_id": 1055,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:50",
+    "end_time": "00:00:55",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 73,
+    "track_id": 988,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:51",
+    "end_time": "00:00:55",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 74,
+    "track_id": 724,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:29",
+    "end_time": "00:00:56",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 75,
+    "track_id": 1062,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:51",
+    "end_time": "00:00:56",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 76,
+    "track_id": 1001,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:47",
+    "end_time": "00:00:57",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 77,
+    "track_id": 1048,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:56",
+    "end_time": "00:00:57",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 78,
+    "track_id": 749,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:31",
+    "end_time": "00:00:57",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 79,
+    "track_id": 997,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:47",
+    "end_time": "00:00:58",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 80,
+    "track_id": 1120,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:56",
+    "end_time": "00:00:58",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 81,
+    "track_id": 1125,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:00:57",
+    "end_time": "00:00:58",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 82,
+    "track_id": 879,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:40",
+    "end_time": "00:00:59",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 83,
+    "track_id": 783,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "truck",
+    "start_time": "00:00:33",
+    "end_time": "00:00:59",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 84,
+    "track_id": 1023,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:48",
+    "end_time": "00:01:00",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 85,
+    "track_id": 1001,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:58",
+    "end_time": "00:01:00",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 86,
+    "track_id": 1152,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:01:00",
+    "end_time": "00:01:00",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 87,
+    "track_id": 974,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:46",
+    "end_time": "00:01:01",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 88,
+    "track_id": 982,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:01:00",
+    "end_time": "00:01:02",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 89,
+    "track_id": 952,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:44",
+    "end_time": "00:01:03",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 90,
+    "track_id": 975,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:46",
+    "end_time": "00:01:03",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 91,
+    "track_id": 1086,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:00:53",
+    "end_time": "00:01:04",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 92,
+    "track_id": 1198,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:01:03",
+    "end_time": "00:01:03",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 93,
+    "track_id": 879,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "truck",
+    "start_time": "00:01:03",
+    "end_time": "00:01:03",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 94,
+    "track_id": 1163,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:00",
+    "end_time": "00:01:05",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 95,
+    "track_id": 1187,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:02",
+    "end_time": "00:01:05",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 96,
+    "track_id": 1145,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:59",
+    "end_time": "00:01:06",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 97,
+    "track_id": 1140,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:58",
+    "end_time": "00:01:06",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 98,
+    "track_id": 1181,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:02",
+    "end_time": "00:01:08",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 99,
+    "track_id": 1193,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:02",
+    "end_time": "00:01:08",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 100,
+    "track_id": 1217,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:04",
+    "end_time": "00:01:08",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 101,
+    "track_id": 975,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:05",
+    "end_time": "00:01:08",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 102,
+    "track_id": 1245,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:06",
+    "end_time": "00:01:08",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 103,
+    "track_id": 1273,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:07",
+    "end_time": "00:01:08",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 104,
+    "track_id": 1282,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:08",
+    "end_time": "00:01:08",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 105,
+    "track_id": 1235,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:05",
+    "end_time": "00:01:09",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 106,
+    "track_id": 1109,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:00:56",
+    "end_time": "00:01:09",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 107,
+    "track_id": 1315,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:10",
+    "end_time": "00:01:10",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 108,
+    "track_id": 1309,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:10",
+    "end_time": "00:01:11",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 109,
+    "track_id": 1341,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:11",
+    "end_time": "00:01:11",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 110,
+    "track_id": 1168,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:01",
+    "end_time": "00:01:12",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 111,
+    "track_id": 1235,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:01:12",
+    "end_time": "00:01:12",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 112,
+    "track_id": 1109,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "truck",
+    "start_time": "00:01:12",
+    "end_time": "00:01:12",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 113,
+    "track_id": 1356,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:12",
+    "end_time": "00:01:13",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 114,
+    "track_id": 1219,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:04",
+    "end_time": "00:01:13",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 115,
+    "track_id": 1322,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:10",
+    "end_time": "00:01:14",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 116,
+    "track_id": 1184,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "truck",
+    "start_time": "00:01:02",
+    "end_time": "00:01:15",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 117,
+    "track_id": 1253,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:06",
+    "end_time": "00:01:15",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 118,
+    "track_id": 1274,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:01:07",
+    "end_time": "00:01:15",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 119,
+    "track_id": 1302,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:10",
+    "end_time": "00:01:17",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 120,
+    "track_id": 1388,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:15",
+    "end_time": "00:01:18",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 121,
+    "track_id": 1403,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "truck",
+    "start_time": "00:01:15",
+    "end_time": "00:01:17",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 122,
+    "track_id": 1421,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:21",
+    "end_time": "00:01:21",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 123,
+    "track_id": 1300,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:10",
+    "end_time": "00:01:22",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 124,
+    "track_id": 1467,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:22",
+    "end_time": "00:01:22",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 125,
+    "track_id": 1450,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:21",
+    "end_time": "00:01:23",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 126,
+    "track_id": 1489,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:23",
+    "end_time": "00:01:23",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 127,
+    "track_id": 1235,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:23",
+    "end_time": "00:01:23",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 128,
+    "track_id": 1428,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:17",
+    "end_time": "00:01:25",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 129,
+    "track_id": 1525,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:24",
+    "end_time": "00:01:25",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 130,
+    "track_id": 1428,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:27",
+    "end_time": "00:01:28",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 131,
+    "track_id": 1560,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:01:27",
+    "end_time": "00:01:30",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 132,
+    "track_id": 1599,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:30",
+    "end_time": "00:01:32",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 133,
+    "track_id": 1621,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:33",
+    "end_time": "00:01:33",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 134,
+    "track_id": 1626,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "truck",
+    "start_time": "00:01:33",
+    "end_time": "00:01:35",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 135,
+    "track_id": 1539,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:01:35",
+    "end_time": "00:01:36",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 136,
+    "track_id": 1570,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:01:36",
+    "end_time": "00:01:37",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 137,
+    "track_id": 1539,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:01:38",
+    "end_time": "00:01:38",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 138,
+    "track_id": 1659,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:37",
+    "end_time": "00:01:40",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 139,
+    "track_id": 1677,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:38",
+    "end_time": "00:01:40",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 140,
+    "track_id": 1673,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:01:40",
+    "end_time": "00:01:40",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 141,
+    "track_id": 1693,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:40",
+    "end_time": "00:01:40",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 142,
+    "track_id": 1695,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:40",
+    "end_time": "00:01:42",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 143,
+    "track_id": 1702,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:41",
+    "end_time": "00:01:42",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 144,
+    "track_id": 1693,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:41",
+    "end_time": "00:01:42",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 145,
+    "track_id": 1677,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:43",
+    "end_time": "00:01:44",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 146,
+    "track_id": 1722,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:43",
+    "end_time": "00:01:44",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 147,
+    "track_id": 1621,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:43",
+    "end_time": "00:01:45",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 148,
+    "track_id": 1677,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:45",
+    "end_time": "00:01:46",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 149,
+    "track_id": 1744,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:45",
+    "end_time": "00:01:46",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 150,
+    "track_id": 1659,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:01:45",
+    "end_time": "00:01:46",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 151,
+    "track_id": 1780,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:46",
+    "end_time": "00:01:47",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 152,
+    "track_id": 1762,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:46",
+    "end_time": "00:01:47",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 153,
+    "track_id": 1459,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:46",
+    "end_time": "00:01:47",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 154,
+    "track_id": 1702,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:47",
+    "end_time": "00:01:47",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 155,
+    "track_id": 1774,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:46",
+    "end_time": "00:01:47",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 156,
+    "track_id": 1722,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:48",
+    "end_time": "00:01:48",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 157,
+    "track_id": 1693,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:45",
+    "end_time": "00:01:48",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 158,
+    "track_id": 1822,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:48",
+    "end_time": "00:01:49",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 159,
+    "track_id": 1780,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:49",
+    "end_time": "00:01:50",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 160,
+    "track_id": 1847,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:50",
+    "end_time": "00:01:53",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 161,
+    "track_id": 1852,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:01:50",
+    "end_time": "00:01:54",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 162,
+    "track_id": 1871,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:01:51",
+    "end_time": "00:01:54",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 163,
+    "track_id": 1821,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:54",
+    "end_time": "00:01:55",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 164,
+    "track_id": 1897,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:54",
+    "end_time": "00:01:55",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 165,
+    "track_id": 1910,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "truck",
+    "start_time": "00:01:55",
+    "end_time": "00:01:56",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 166,
+    "track_id": 1821,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:56",
+    "end_time": "00:01:56",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 167,
+    "track_id": 1930,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:56",
+    "end_time": "00:01:57",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 168,
+    "track_id": 1910,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:01:57",
+    "end_time": "00:01:59",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 169,
+    "track_id": 1971,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:00",
+    "end_time": "00:02:02",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 170,
+    "track_id": 1980,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:01",
+    "end_time": "00:02:02",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 171,
+    "track_id": 1968,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:00",
+    "end_time": "00:02:02",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 172,
+    "track_id": 1961,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:03",
+    "end_time": "00:02:03",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 173,
+    "track_id": 1990,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:04",
+    "end_time": "00:02:05",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 174,
+    "track_id": 2008,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:09",
+    "end_time": "00:02:10",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 175,
+    "track_id": 2024,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:09",
+    "end_time": "00:02:10",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 176,
+    "track_id": 2014,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:09",
+    "end_time": "00:02:11",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 177,
+    "track_id": 2025,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:09",
+    "end_time": "00:02:12",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 178,
+    "track_id": 2045,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:10",
+    "end_time": "00:02:15",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 179,
+    "track_id": 2077,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:12",
+    "end_time": "00:02:16",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 180,
+    "track_id": 2083,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:12",
+    "end_time": "00:02:16",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 181,
+    "track_id": 2114,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:15",
+    "end_time": "00:02:17",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 182,
+    "track_id": 2128,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:15",
+    "end_time": "00:02:17",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 183,
+    "track_id": 2162,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:17",
+    "end_time": "00:02:17",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 184,
+    "track_id": 2123,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:15",
+    "end_time": "00:02:18",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 185,
+    "track_id": 2190,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:18",
+    "end_time": "00:02:19",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 186,
+    "track_id": 2154,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:17",
+    "end_time": "00:02:19",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 187,
+    "track_id": 2199,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:18",
+    "end_time": "00:02:19",
+    "attributes": {
+      "color": "yellow"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 188,
+    "track_id": 2191,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:18",
+    "end_time": "00:02:20",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 189,
+    "track_id": 2253,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:19",
+    "end_time": "00:02:20",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 190,
+    "track_id": 2210,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:18",
+    "end_time": "00:02:20",
+    "attributes": {
+      "color": "purple"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 191,
+    "track_id": 2190,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:20",
+    "end_time": "00:02:20",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 192,
+    "track_id": 2287,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:21",
+    "end_time": "00:02:21",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 193,
+    "track_id": 2276,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:20",
+    "end_time": "00:02:21",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 194,
+    "track_id": 2074,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:12",
+    "end_time": "00:02:22",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 195,
+    "track_id": 2222,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:19",
+    "end_time": "00:02:22",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 196,
+    "track_id": 2254,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:19",
+    "end_time": "00:02:22",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 197,
+    "track_id": 2286,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:21",
+    "end_time": "00:02:22",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 198,
+    "track_id": 2120,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:15",
+    "end_time": "00:02:22",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 199,
+    "track_id": 2211,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:18",
+    "end_time": "00:02:22",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 200,
+    "track_id": 2191,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:22",
+    "end_time": "00:02:22",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 201,
+    "track_id": 2190,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:22",
+    "end_time": "00:02:22",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 202,
+    "track_id": 2169,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:17",
+    "end_time": "00:02:23",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 203,
+    "track_id": 2279,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:20",
+    "end_time": "00:02:23",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 204,
+    "track_id": 2277,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:20",
+    "end_time": "00:02:24",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 205,
+    "track_id": 2326,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "truck",
+    "start_time": "00:02:22",
+    "end_time": "00:02:24",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 206,
+    "track_id": 2358,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "truck",
+    "start_time": "00:02:24",
+    "end_time": "00:02:25",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 207,
+    "track_id": 2371,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:26",
+    "end_time": "00:02:26",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 208,
+    "track_id": 2370,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:26",
+    "end_time": "00:02:27",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 209,
+    "track_id": 2377,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:26",
+    "end_time": "00:02:28",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 210,
+    "track_id": 2326,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:27",
+    "end_time": "00:02:28",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 211,
+    "track_id": 2401,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:28",
+    "end_time": "00:02:28",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 212,
+    "track_id": 2289,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:21",
+    "end_time": "00:02:29",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 213,
+    "track_id": 2314,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:22",
+    "end_time": "00:02:30",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 214,
+    "track_id": 2414,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:29",
+    "end_time": "00:02:30",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 215,
+    "track_id": 2401,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:30",
+    "end_time": "00:02:30",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 216,
+    "track_id": 2434,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:31",
+    "end_time": "00:02:32",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 217,
+    "track_id": 2287,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:22",
+    "end_time": "00:02:32",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 218,
+    "track_id": 2441,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:31",
+    "end_time": "00:02:33",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 219,
+    "track_id": 2314,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:33",
+    "end_time": "00:02:34",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 220,
+    "track_id": 2444,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:31",
+    "end_time": "00:02:35",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 221,
+    "track_id": 2482,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "truck",
+    "start_time": "00:02:34",
+    "end_time": "00:02:35",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 222,
+    "track_id": 2488,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:34",
+    "end_time": "00:02:34",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 223,
+    "track_id": 2476,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:33",
+    "end_time": "00:02:35",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 224,
+    "track_id": 2083,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:35",
+    "end_time": "00:02:35",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 225,
+    "track_id": 2261,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:22",
+    "end_time": "00:02:36",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 226,
+    "track_id": 2401,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:34",
+    "end_time": "00:02:36",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 227,
+    "track_id": 2493,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:02:34",
+    "end_time": "00:02:36",
+    "attributes": {
+      "shirt": "gray",
+      "pants": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 228,
+    "track_id": 2500,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:35",
+    "end_time": "00:02:36",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 229,
+    "track_id": 2512,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:35",
+    "end_time": "00:02:36",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 230,
+    "track_id": 2510,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:35",
+    "end_time": "00:02:36",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 231,
+    "track_id": 2522,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:37",
+    "end_time": "00:02:37",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 232,
+    "track_id": 2521,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:37",
+    "end_time": "00:02:38",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 233,
+    "track_id": 2582,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:38",
+    "end_time": "00:02:39",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 234,
+    "track_id": 2522,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:39",
+    "end_time": "00:02:39",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 235,
+    "track_id": 2590,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:39",
+    "end_time": "00:02:39",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 236,
+    "track_id": 2401,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:38",
+    "end_time": "00:02:40",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 237,
+    "track_id": 2510,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:38",
+    "end_time": "00:02:40",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 238,
+    "track_id": 2162,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:21",
+    "end_time": "00:02:41",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 239,
+    "track_id": 2582,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:41",
+    "end_time": "00:02:41",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 240,
+    "track_id": 2188,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:20",
+    "end_time": "00:02:42",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 241,
+    "track_id": 2600,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:39",
+    "end_time": "00:02:42",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 242,
+    "track_id": 2659,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:42",
+    "end_time": "00:02:43",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 243,
+    "track_id": 2510,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:42",
+    "end_time": "00:02:43",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 244,
+    "track_id": 2582,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:43",
+    "end_time": "00:02:43",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 245,
+    "track_id": 2401,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:43",
+    "end_time": "00:02:44",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 246,
+    "track_id": 2556,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:37",
+    "end_time": "00:02:45",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 247,
+    "track_id": 2607,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:40",
+    "end_time": "00:02:45",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 248,
+    "track_id": 2681,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:43",
+    "end_time": "00:02:45",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 249,
+    "track_id": 2188,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:45",
+    "end_time": "00:02:45",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 250,
+    "track_id": 2344,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:23",
+    "end_time": "00:02:45",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 251,
+    "track_id": 2512,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:45",
+    "end_time": "00:02:45",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 252,
+    "track_id": 2704,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:44",
+    "end_time": "00:02:47",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 253,
+    "track_id": 2722,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:45",
+    "end_time": "00:02:47",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 254,
+    "track_id": 2749,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:47",
+    "end_time": "00:02:48",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 255,
+    "track_id": 2811,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:49",
+    "end_time": "00:02:49",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 256,
+    "track_id": 2385,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:27",
+    "end_time": "00:02:50",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 257,
+    "track_id": 2690,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:43",
+    "end_time": "00:02:50",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 258,
+    "track_id": 2801,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:49",
+    "end_time": "00:02:50",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 259,
+    "track_id": 2719,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:45",
+    "end_time": "00:02:51",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 260,
+    "track_id": 2803,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:49",
+    "end_time": "00:02:51",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 261,
+    "track_id": 2344,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:50",
+    "end_time": "00:02:52",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 262,
+    "track_id": 2854,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:51",
+    "end_time": "00:02:53",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 263,
+    "track_id": 2405,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:28",
+    "end_time": "00:02:55",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 264,
+    "track_id": 2444,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:37",
+    "end_time": "00:02:57",
+    "attributes": {
+      "color": "orange"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 265,
+    "track_id": 2894,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:55",
+    "end_time": "00:02:57",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 266,
+    "track_id": 2857,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "truck",
+    "start_time": "00:02:51",
+    "end_time": "00:02:58",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 267,
+    "track_id": 2886,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:54",
+    "end_time": "00:02:58",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 268,
+    "track_id": 2912,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:57",
+    "end_time": "00:02:59",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 269,
+    "track_id": 2942,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:59",
+    "end_time": "00:03:00",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 270,
+    "track_id": 2819,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:50",
+    "end_time": "00:03:00",
+    "attributes": {
+      "color": "orange"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 271,
+    "track_id": 2950,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:02:59",
+    "end_time": "00:03:00",
+    "attributes": {
+      "color": "orange"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 272,
+    "track_id": 2733,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:46",
+    "end_time": "00:03:01",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 273,
+    "track_id": 2918,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:58",
+    "end_time": "00:03:01",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 274,
+    "track_id": 2946,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:59",
+    "end_time": "00:03:01",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 275,
+    "track_id": 2786,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:48",
+    "end_time": "00:03:03",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 276,
+    "track_id": 2992,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:01",
+    "end_time": "00:03:03",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 277,
+    "track_id": 2863,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:52",
+    "end_time": "00:03:05",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 278,
+    "track_id": 3072,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "truck",
+    "start_time": "00:03:05",
+    "end_time": "00:03:05",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 279,
+    "track_id": 2757,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:47",
+    "end_time": "00:03:05",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 280,
+    "track_id": 2869,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:52",
+    "end_time": "00:03:05",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 281,
+    "track_id": 3048,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:05",
+    "end_time": "00:03:05",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 282,
+    "track_id": 3062,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:06",
+    "end_time": "00:03:06",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 283,
+    "track_id": 3099,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:06",
+    "end_time": "00:03:08",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 284,
+    "track_id": 3048,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:07",
+    "end_time": "00:03:08",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 285,
+    "track_id": 3110,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:07",
+    "end_time": "00:03:08",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 286,
+    "track_id": 3062,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:08",
+    "end_time": "00:03:08",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 287,
+    "track_id": 2835,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:51",
+    "end_time": "00:03:09",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 288,
+    "track_id": 3019,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:09",
+    "end_time": "00:03:09",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 289,
+    "track_id": 3158,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:09",
+    "end_time": "00:03:10",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 290,
+    "track_id": 2888,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:02:55",
+    "end_time": "00:03:10",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 291,
+    "track_id": 3155,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:09",
+    "end_time": "00:03:10",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 292,
+    "track_id": 3172,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:10",
+    "end_time": "00:03:10",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 293,
+    "track_id": 3174,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:10",
+    "end_time": "00:03:10",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 294,
+    "track_id": 3111,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:11",
+    "end_time": "00:03:11",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 295,
+    "track_id": 3062,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:12",
+    "end_time": "00:03:12",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 296,
+    "track_id": 2889,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:02:55",
+    "end_time": "00:03:12",
+    "attributes": {
+      "shirt": "white",
+      "pants": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 297,
+    "track_id": 3052,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:04",
+    "end_time": "00:03:12",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 298,
+    "track_id": 3238,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:14",
+    "end_time": "00:03:14",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 299,
+    "track_id": 3111,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:14",
+    "end_time": "00:03:14",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 300,
+    "track_id": 3108,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:03:07",
+    "end_time": "00:03:14",
+    "attributes": {
+      "shirt": "black",
+      "pants": "black"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 301,
+    "track_id": 3062,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:13",
+    "end_time": "00:03:14",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 302,
+    "track_id": 3248,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:14",
+    "end_time": "00:03:14",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 303,
+    "track_id": 3254,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:14",
+    "end_time": "00:03:15",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 304,
+    "track_id": 3134,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:08",
+    "end_time": "00:03:15",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 305,
+    "track_id": 3048,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:14",
+    "end_time": "00:03:15",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 306,
+    "track_id": 3277,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:15",
+    "end_time": "00:03:16",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 307,
+    "track_id": 3111,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:16",
+    "end_time": "00:03:16",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 308,
+    "track_id": 3048,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:17",
+    "end_time": "00:03:17",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 309,
+    "track_id": 3313,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:17",
+    "end_time": "00:03:18",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 310,
+    "track_id": 3111,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:18",
+    "end_time": "00:03:18",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 311,
+    "track_id": 3221,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:12",
+    "end_time": "00:03:18",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 312,
+    "track_id": 2967,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:00",
+    "end_time": "00:03:19",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 313,
+    "track_id": 3048,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:19",
+    "end_time": "00:03:19",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 314,
+    "track_id": 3354,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:19",
+    "end_time": "00:03:20",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 315,
+    "track_id": 2912,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:00",
+    "end_time": "00:03:20",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 316,
+    "track_id": 3062,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:20",
+    "end_time": "00:03:20",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 317,
+    "track_id": 3279,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:03:15",
+    "end_time": "00:03:20",
+    "attributes": {
+      "shirt": "unknown",
+      "pants": "unknown"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 318,
+    "track_id": 3111,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:20",
+    "end_time": "00:03:20",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 319,
+    "track_id": 3038,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:03",
+    "end_time": "00:03:21",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 320,
+    "track_id": 3193,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:11",
+    "end_time": "00:03:21",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 321,
+    "track_id": 2958,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:00",
+    "end_time": "00:03:21",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 322,
+    "track_id": 3336,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:18",
+    "end_time": "00:03:21",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 323,
+    "track_id": 3279,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:03:22",
+    "end_time": "00:03:22",
+    "attributes": {
+      "shirt": "unknown",
+      "pants": "unknown"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 324,
+    "track_id": 3395,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:21",
+    "end_time": "00:03:23",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 325,
+    "track_id": 3413,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:03:22",
+    "end_time": "00:03:23",
+    "attributes": {
+      "shirt": "unknown",
+      "pants": "unknown"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 326,
+    "track_id": 3394,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:21",
+    "end_time": "00:03:24",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 327,
+    "track_id": 3111,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:24",
+    "end_time": "00:03:24",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 328,
+    "track_id": 3369,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:19",
+    "end_time": "00:03:24",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 329,
+    "track_id": 3148,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:03:09",
+    "end_time": "00:03:25",
+    "attributes": {
+      "shirt": "black",
+      "pants": "black"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 330,
+    "track_id": 3434,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "truck",
+    "start_time": "00:03:23",
+    "end_time": "00:03:25",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 331,
+    "track_id": 3441,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:23",
+    "end_time": "00:03:25",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 332,
+    "track_id": 3133,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:08",
+    "end_time": "00:03:26",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 333,
+    "track_id": 3377,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:20",
+    "end_time": "00:03:27",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 334,
+    "track_id": 3442,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:23",
+    "end_time": "00:03:27",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 335,
+    "track_id": 3470,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:25",
+    "end_time": "00:03:28",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 336,
+    "track_id": 3111,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:29",
+    "end_time": "00:03:29",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 337,
+    "track_id": 3062,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:29",
+    "end_time": "00:03:30",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 338,
+    "track_id": 3434,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:27",
+    "end_time": "00:03:30",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 339,
+    "track_id": 3547,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:29",
+    "end_time": "00:03:31",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 340,
+    "track_id": 3556,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:30",
+    "end_time": "00:03:31",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 341,
+    "track_id": 3277,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:31",
+    "end_time": "00:03:31",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 342,
+    "track_id": 3463,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:25",
+    "end_time": "00:03:32",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 343,
+    "track_id": 3546,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:29",
+    "end_time": "00:03:32",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 344,
+    "track_id": 3530,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:28",
+    "end_time": "00:03:32",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 345,
+    "track_id": 3566,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "truck",
+    "start_time": "00:03:30",
+    "end_time": "00:03:32",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 346,
+    "track_id": 3584,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:31",
+    "end_time": "00:03:33",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 347,
+    "track_id": 3447,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:32",
+    "end_time": "00:03:32",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 348,
+    "track_id": 3496,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:27",
+    "end_time": "00:03:33",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 349,
+    "track_id": 3627,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "truck",
+    "start_time": "00:03:33",
+    "end_time": "00:03:33",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 350,
+    "track_id": 3480,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:26",
+    "end_time": "00:03:35",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 351,
+    "track_id": 3594,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:32",
+    "end_time": "00:03:35",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 352,
+    "track_id": 3605,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:32",
+    "end_time": "00:03:35",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 353,
+    "track_id": 3497,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:03:27",
+    "end_time": "00:03:35",
+    "attributes": {
+      "shirt": "unknown",
+      "pants": "unknown"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 354,
+    "track_id": 3447,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:35",
+    "end_time": "00:03:35",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 355,
+    "track_id": 3613,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:32",
+    "end_time": "00:03:35",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 356,
+    "track_id": 3530,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:35",
+    "end_time": "00:03:35",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 357,
+    "track_id": 3152,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:09",
+    "end_time": "00:03:36",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 358,
+    "track_id": 3618,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:32",
+    "end_time": "00:03:36",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 359,
+    "track_id": 3620,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:32",
+    "end_time": "00:03:37",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 360,
+    "track_id": 3584,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:35",
+    "end_time": "00:03:37",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 361,
+    "track_id": 3447,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:36",
+    "end_time": "00:03:38",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 362,
+    "track_id": 3693,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "truck",
+    "start_time": "00:03:39",
+    "end_time": "00:03:39",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 363,
+    "track_id": 3679,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:36",
+    "end_time": "00:03:40",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 364,
+    "track_id": 3303,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:17",
+    "end_time": "00:03:42",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 365,
+    "track_id": 3497,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "person",
+    "start_time": "00:03:38",
+    "end_time": "00:03:43",
+    "attributes": {
+      "shirt": "unknown",
+      "pants": "unknown"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 366,
+    "track_id": 3584,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:44",
+    "end_time": "00:03:44",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 367,
+    "track_id": 3717,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:42",
+    "end_time": "00:03:44",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 368,
+    "track_id": 3707,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:41",
+    "end_time": "00:03:44",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 369,
+    "track_id": 3685,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:38",
+    "end_time": "00:03:45",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 370,
+    "track_id": 3721,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:43",
+    "end_time": "00:03:45",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 371,
+    "track_id": 3723,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:03:43",
+    "end_time": "00:03:45",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 372,
+    "track_id": 3532,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:28",
+    "end_time": "00:03:47",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 373,
+    "track_id": 3726,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "truck",
+    "start_time": "00:03:44",
+    "end_time": "00:03:49",
+    "attributes": {
+      "color": "yellow"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 374,
+    "track_id": 3584,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:47",
+    "end_time": "00:03:49",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 375,
+    "track_id": 3619,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:32",
+    "end_time": "00:03:51",
+    "attributes": {
+      "color": "orange"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 376,
+    "track_id": 3757,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:47",
+    "end_time": "00:03:50",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 377,
+    "track_id": 3638,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:34",
+    "end_time": "00:03:52",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 378,
+    "track_id": 3725,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:44",
+    "end_time": "00:03:52",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 379,
+    "track_id": 3750,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:47",
+    "end_time": "00:03:53",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 380,
+    "track_id": 3769,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:49",
+    "end_time": "00:03:54",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 381,
+    "track_id": 3788,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:52",
+    "end_time": "00:03:55",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 382,
+    "track_id": 3725,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:54",
+    "end_time": "00:03:55",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 383,
+    "track_id": 3750,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:57",
+    "end_time": "00:03:57",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 384,
+    "track_id": 3823,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:57",
+    "end_time": "00:03:57",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 385,
+    "track_id": 3824,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:57",
+    "end_time": "00:03:57",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 386,
+    "track_id": 3837,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:03:59",
+    "end_time": "00:04:00",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 387,
+    "track_id": 3850,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:01",
+    "end_time": "00:04:02",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 388,
+    "track_id": 3865,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:04:02",
+    "end_time": "00:04:03",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 389,
+    "track_id": 3824,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:04",
+    "end_time": "00:04:04",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 390,
+    "track_id": 3837,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:05",
+    "end_time": "00:04:05",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 391,
+    "track_id": 3638,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "truck",
+    "start_time": "00:03:59",
+    "end_time": "00:04:09",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 392,
+    "track_id": 3957,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:07",
+    "end_time": "00:04:09",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 393,
+    "track_id": 3982,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:08",
+    "end_time": "00:04:09",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 394,
+    "track_id": 3946,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:07",
+    "end_time": "00:04:10",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 395,
+    "track_id": 4009,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:11",
+    "end_time": "00:04:11",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 396,
+    "track_id": 3996,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:10",
+    "end_time": "00:04:12",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 397,
+    "track_id": 3980,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:11",
+    "end_time": "00:04:12",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 398,
+    "track_id": 4025,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:12",
+    "end_time": "00:04:13",
+    "attributes": {
+      "color": "red"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 399,
+    "track_id": 3901,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:04",
+    "end_time": "00:04:13",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 400,
+    "track_id": 3963,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:13",
+    "end_time": "00:04:14",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 401,
+    "track_id": 4008,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:04:13",
+    "end_time": "00:04:14",
+    "attributes": {
+      "color": "purple"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 402,
+    "track_id": 3750,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:04:02",
+    "end_time": "00:04:15",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 403,
+    "track_id": 4053,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "bus",
+    "start_time": "00:04:13",
+    "end_time": "00:04:16",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 404,
+    "track_id": 4072,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:15",
+    "end_time": "00:04:17",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 405,
+    "track_id": 3788,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:04",
+    "end_time": "00:04:18",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 406,
+    "track_id": 4098,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:17",
+    "end_time": "00:04:19",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 407,
+    "track_id": 4103,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:17",
+    "end_time": "00:04:19",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 408,
+    "track_id": 4112,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:18",
+    "end_time": "00:04:19",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 409,
+    "track_id": 4132,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:19",
+    "end_time": "00:04:19",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 410,
+    "track_id": 4098,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:21",
+    "end_time": "00:04:21",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 411,
+    "track_id": 4160,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:21",
+    "end_time": "00:04:21",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 412,
+    "track_id": 4146,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:20",
+    "end_time": "00:04:22",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 413,
+    "track_id": 4103,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:21",
+    "end_time": "00:04:22",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 414,
+    "track_id": 4185,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:22",
+    "end_time": "00:04:23",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 415,
+    "track_id": 4148,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:20",
+    "end_time": "00:04:23",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 416,
+    "track_id": 4166,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:21",
+    "end_time": "00:04:24",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 417,
+    "track_id": 4175,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:24",
+    "end_time": "00:04:24",
+    "attributes": {
+      "color": "gray"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 418,
+    "track_id": 4211,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:23",
+    "end_time": "00:04:25",
+    "attributes": {
+      "color": "blue"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
+  },
+  {
+    "event_id": 419,
+    "track_id": 4249,
+    "camera_id": 2,
+    "camera_name": "Parking",
+    "nvr_ip": null,
+    "nvr_channel": null,
+    "object_type": "car",
+    "start_time": "00:04:25",
+    "end_time": "00:04:26",
+    "attributes": {
+      "color": "white"
+    },
+    "video_file": "uploads/4K_Road_traffic_video_for_object_detection_and_tracking_-_free_download_now_2.mp4"
   }
 ]
